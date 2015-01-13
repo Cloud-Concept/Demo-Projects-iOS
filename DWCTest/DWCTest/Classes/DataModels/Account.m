@@ -18,7 +18,22 @@
     self.name = Name;
     self.billingCity = BillingCity;
     self.billingCountryCode = BillingCountryCode;
+    self.accountBalance = [NSNumber numberWithInt:0];
     
     return self;
 }
+
+- (id)initAccount:(NSString*)AccountId Name:(NSString*)Name AccountBalance:(NSNumber*)AccountBalance {
+    if (!(self = [super init]))
+        return nil;
+    
+    self.Id = AccountId;
+    self.name = Name;
+    self.accountBalance = AccountBalance;
+    self.billingCity = @"";
+    self.billingCountryCode = @"";
+    
+    return self;
+}
+
 @end

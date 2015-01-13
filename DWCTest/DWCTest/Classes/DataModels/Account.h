@@ -14,7 +14,10 @@
 @property (nonatomic, strong) NSString *name;
 @property (nonatomic, strong) NSString *billingCity;
 @property (nonatomic, strong) NSString *billingCountryCode;
+@property (nonatomic, strong) NSNumber *accountBalance;
 
 - (id)initAccount:(NSString*)AccountId Name:(NSString*)Name BillingCity:(NSString*)BillingCity BillingCountryCode:(NSString*)BillingCountryCode;
+
+- (id)initAccount:(NSString*)AccountId Name:(NSString*)Name AccountBalance:(NSNumber*)AccountBalance;
 
 @end

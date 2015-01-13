@@ -28,6 +28,7 @@
 #import "SFRestAPI.h"
 #import "SFRestRequest.h"
 #import "ChoosePageViewController.h"
+#import "Account.h"
 
 @implementation RootViewController
 
@@ -65,7 +66,14 @@
 - (void)request:(SFRestRequest *)request didLoadResponse:(id)jsonResponse {
     NSArray *records = [jsonResponse objectForKey:@"records"];
     NSLog(@"request:didLoadResponse: #records: %d", records.count);
-    self.dataRows = records;
+
+    dataRows = [NSMutableArray new];
+    
+    for (NSDictionary *dict in records) {
+        [dataRows addObject:[[Account alloc] initAccount:[dict objectForKey:@"Id"]
+                                                    Name:[dict objectForKey:@"Name"]
+                                          AccountBalance:[dict objectForKey:@"Account_Balance__c"]]];
+    }
     dispatch_async(dispatch_get_main_queue(), ^{
         [self.tableView reloadData];
     });
@@ -113,8 +121,8 @@
 	cell.imageView.image = image;
 
 	// Configure the cell to show the data.
-	NSDictionary *obj = [dataRows objectAtIndex:indexPath.row];
-	cell.textLabel.text =  [obj objectForKey:@"Name"];
+	Account *obj = [dataRows objectAtIndex:indexPath.row];
+    cell.textLabel.text =  obj.name;
 
 	//this adds the arrow to the right hand side.
 	cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
@@ -125,11 +133,11 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 
-    NSDictionary *obj = [dataRows objectAtIndex:indexPath.row];
+    Account *obj = [dataRows objectAtIndex:indexPath.row];
     
     ChoosePageViewController *choosePageVC = [ChoosePageViewController new];
-    choosePageVC.accountId = [obj objectForKey:@"Id"];
-    choosePageVC.accountBalance = [obj objectForKey:@"Account_Balance__c"];
+    choosePageVC.accountId = obj.Id;
+    choosePageVC.accountBalance = obj.accountBalance;
     
     [self.navigationController pushViewController:choosePageVC animated:YES];
     
