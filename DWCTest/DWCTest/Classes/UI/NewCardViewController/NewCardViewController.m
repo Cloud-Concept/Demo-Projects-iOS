@@ -32,14 +32,18 @@
     
     
     // Do any additional setup after loading the view from its nib.
-    cardTypesDescriptionsArray = @[@"New FM Contractor Pass", @"New Contractor Pass", @"New Work Permit Pass", @"New Access Card", @"Replacement of Lost Employment Card"];
+    cardTypesDescriptionsArray = @[@"FM Contractor Pass", @"Contractor Pass", @"Work Permit Pass", @"Access Card", @"Replacement of Lost Employment Card"];
     cardTypesValuesArray = @[@"FM_Contractor_Card", @"Contractor_Card", @"Work_Permit_Card", @"Access_Card", @"Employment_Card"];
     
     [self getCardRecordType];
     
     if (self.operationType != nil && ![self.operationType isEqualToString:@""]) {
         [self getServiceAdministrator];
-        [self.selectCardTypeButton setTitle:self.selectedCardType forState:UIControlStateNormal];
+        
+        NSInteger index = [cardTypesValuesArray indexOfObject:self.selectedCardType];
+        if(index != NSNotFound)
+            [self.selectCardTypeButton setTitle:[cardTypesDescriptionsArray objectAtIndex:index] forState:UIControlStateNormal];
+
         [self.selectDurationButton setTitle:self.selectedDuration forState:UIControlStateNormal];
     }
     else {
