@@ -1,0 +1,38 @@
+/* 
+  Localizable.strings
+  Sawahi
+
+  Created by Mina Zaklama on 1/19/14.
+  Copyright (c) 2014 Cloud Concept. All rights reserved.
+*/
+
+
+"letter_categories" = "Letter Categories AR";
+
+"all_letter_categories" = "All Letter Categories AR";
+
+"requested_letters" = "Requested Letters AR";
+
+"logout" = "Logout AR";
+
+"contacts" = "تجربة";
+
+"accounts" = "Accounts AR";
+
+"bank_letter" = "Bank Letter AR";
+
+"open_bank_account" = "Open Bank Account AR";
+
+"cancel" = "Cancel AR";
+
+"done" = "Done AR";
+
+"first_name_label" = "First Name AR:";
+
+"last_name_label" = "Last Name AR:";
+
+"nationality_label" = "Nationality AR:";
+
+"country_of_birth_label" = "Country Of Birth AR:";
+
+"birth_date_label" = "Birth Date AR:";

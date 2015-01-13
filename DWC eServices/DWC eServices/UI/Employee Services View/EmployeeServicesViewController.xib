@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="5056" systemVersion="14A238x" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EmployeeServicesViewController">
+            <connections>
+                <outlet property="accessPassesCardsView" destination="KMv-pM-eC3" id="hdP-ih-370"/>
+                <outlet property="dependentVisitVisasView" destination="25V-0I-eL0" id="jqC-9J-wrp"/>
+                <outlet property="employeeVisasView" destination="cL7-99-iCn" id="UWk-TV-Po9"/>
+                <outlet property="issueCretificatesLettersView" destination="0Gm-Gn-FX0" id="3dq-3z-jky"/>
+                <outlet property="issueNOCsView" destination="dlQ-vn-pya" id="yjj-XS-fZr"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="746" height="700"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <scrollView appearanceType="aqua" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rfP-GN-pmu">
+                    <rect key="frame" x="0.0" y="0.0" width="746" height="700"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <view appearanceType="aqua" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cL7-99-iCn">
+                            <rect key="frame" x="0.0" y="37" width="230" height="225"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Services Header Label.png" translatesAutoresizingMaskIntoConstraints="NO" id="HxH-iV-gK4">
+                                    <rect key="frame" x="0.0" y="0.0" width="230" height="57"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="   EMPLOYEE VISAS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="usW-A5-x6c">
+                                    <rect key="frame" x="0.0" y="0.0" width="230" height="57"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="12"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KjC-Y1-hd6">
+                                    <rect key="frame" x="0.0" y="57" width="230" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="30" id="rRx-2O-Sh1"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                    <state key="normal" title="   Apply For New" backgroundImage="Home Services Buttons Background.png">
+                                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TV8-b5-iOF">
+                                    <rect key="frame" x="0.0" y="87" width="230" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="25" id="ddS-Yo-rGc"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                    <state key="normal" title="   Cancel Existing" backgroundImage="Home Services Buttons Background.png">
+                                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mBG-Yl-ciq">
+                                    <rect key="frame" x="0.0" y="112" width="230" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="25" id="gY2-f5-zy2"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                    <state key="normal" title="   Renew Existing" backgroundImage="Home Services Buttons Background.png">
+                                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4y2-I3-XUo">
+                                    <rect key="frame" x="0.0" y="137" width="230" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="25" id="PSS-R9-UAa"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                    <state key="normal" title="   Internal Transfer" backgroundImage="Home Services Buttons Background.png">
+                                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mlh-UF-09K">
+                                    <rect key="frame" x="0.0" y="162" width="230" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="25" id="9ZO-T2-tWs"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                    <state key="normal" title="   External Transfer" backgroundImage="Home Services Buttons Background.png">
+                                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Home Services Buttons Background.png" translatesAutoresizingMaskIntoConstraints="NO" id="geh-0f-HAn">
+                                    <rect key="frame" x="0.0" y="187" width="230" height="27"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="27" id="T4V-ZZ-6Y8"/>
+                                    </constraints>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="KjC-Y1-hd6" firstAttribute="top" secondItem="usW-A5-x6c" secondAttribute="bottom" id="15I-aZ-pVs"/>
+                                <constraint firstItem="mlh-UF-09K" firstAttribute="top" secondItem="4y2-I3-XUo" secondAttribute="bottom" id="23E-F1-dJt"/>
+                                <constraint firstItem="TV8-b5-iOF" firstAttribute="top" secondItem="KjC-Y1-hd6" secondAttribute="bottom" id="3cl-bq-ABH"/>
+                                <constraint firstItem="TV8-b5-iOF" firstAttribute="leading" secondItem="KjC-Y1-hd6" secondAttribute="leading" id="5fG-oq-g8C"/>
+                                <constraint firstItem="TV8-b5-iOF" firstAttribute="trailing" secondItem="KjC-Y1-hd6" secondAttribute="trailing" id="6BJ-3p-zLn"/>
+                                <constraint firstItem="mBG-Yl-ciq" firstAttribute="leading" secondItem="TV8-b5-iOF" secondAttribute="leading" id="6PJ-Ws-xZA"/>
+                                <constraint firstItem="mBG-Yl-ciq" firstAttribute="top" secondItem="TV8-b5-iOF" secondAttribute="bottom" id="8fQ-Ls-kQ3"/>
+                                <constraint firstItem="HxH-iV-gK4" firstAttribute="leading" secondItem="usW-A5-x6c" secondAttribute="leading" id="BSK-1P-ERb"/>
+                                <constraint firstItem="TV8-b5-iOF" firstAttribute="trailing" secondItem="mBG-Yl-ciq" secondAttribute="trailing" id="E9G-MK-rGM"/>
+                                <constraint firstItem="4y2-I3-XUo" firstAttribute="top" secondItem="mBG-Yl-ciq" secondAttribute="bottom" id="HCl-1g-mMC"/>
+                                <constraint firstItem="HxH-iV-gK4" firstAttribute="top" secondItem="usW-A5-x6c" secondAttribute="top" id="K4F-DE-yZB"/>
+                                <constraint firstItem="KjC-Y1-hd6" firstAttribute="leading" secondItem="HxH-iV-gK4" secondAttribute="leading" id="MpE-z3-8Xi"/>
+                                <constraint firstItem="KjC-Y1-hd6" firstAttribute="trailing" secondItem="usW-A5-x6c" secondAttribute="trailing" id="V7L-6R-agE"/>
+                                <constraint firstItem="usW-A5-x6c" firstAttribute="top" secondItem="cL7-99-iCn" secondAttribute="top" id="VzG-xo-wCX"/>
+                                <constraint firstItem="mBG-Yl-ciq" firstAttribute="leading" secondItem="cL7-99-iCn" secondAttribute="leading" id="cGO-h3-NxL"/>
+                                <constraint firstItem="geh-0f-HAn" firstAttribute="top" secondItem="mlh-UF-09K" secondAttribute="bottom" id="dIO-MG-D6n"/>
+                                <constraint firstAttribute="trailing" secondItem="geh-0f-HAn" secondAttribute="trailing" id="dLV-jq-zbU"/>
+                                <constraint firstItem="mBG-Yl-ciq" firstAttribute="trailing" secondItem="4y2-I3-XUo" secondAttribute="trailing" id="jhq-de-DoF"/>
+                                <constraint firstItem="mlh-UF-09K" firstAttribute="trailing" secondItem="4y2-I3-XUo" secondAttribute="trailing" id="k5b-gr-lKp"/>
+                                <constraint firstItem="mlh-UF-09K" firstAttribute="trailing" secondItem="geh-0f-HAn" secondAttribute="trailing" id="kV0-3q-0Ec"/>
+                                <constraint firstItem="4y2-I3-XUo" firstAttribute="leading" secondItem="mBG-Yl-ciq" secondAttribute="leading" id="m3h-Mt-aiH"/>
+                                <constraint firstAttribute="bottom" secondItem="geh-0f-HAn" secondAttribute="bottom" constant="11" id="n7r-2D-tVJ"/>
+                                <constraint firstItem="mlh-UF-09K" firstAttribute="leading" secondItem="4y2-I3-XUo" secondAttribute="leading" id="nLo-oC-QaR"/>
+                                <constraint firstItem="mlh-UF-09K" firstAttribute="leading" secondItem="geh-0f-HAn" secondAttribute="leading" id="rlU-b2-fL4"/>
+                                <constraint firstItem="usW-A5-x6c" firstAttribute="trailing" secondItem="HxH-iV-gK4" secondAttribute="trailing" id="tys-aR-s1z"/>
+                                <constraint firstItem="HxH-iV-gK4" firstAttribute="bottom" secondItem="usW-A5-x6c" secondAttribute="bottom" id="u08-Zt-Scu"/>
+                                <constraint firstAttribute="height" constant="225" id="v6E-k0-Vz5"/>
+                            </constraints>
+                        </view>
+                        <view appearanceType="aqua" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Gm-Gn-FX0">
+                            <rect key="frame" x="243" y="37" width="230" height="225"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Services Header Label.png" translatesAutoresizingMaskIntoConstraints="NO" id="GmO-Jq-sx8">
+                                    <rect key="frame" x="0.0" y="0.0" width="230" height="57"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="   ISSUE CERTIFICATES &amp; LETTERS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oiO-bM-Kgn">
+                                    <rect key="frame" x="0.0" y="0.0" width="230" height="57"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="12"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eMi-p0-U0b">
+                                    <rect key="frame" x="0.0" y="57" width="230" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="30" id="QCa-gx-KqO"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                    <state key="normal" title="   Salary Certificate" backgroundImage="Home Services Buttons Background.png">
+                                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bqh-3M-8tH">
+                                    <rect key="frame" x="0.0" y="87" width="230" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="25" id="dea-F3-QPe"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                    <state key="normal" title="   Letter to RTA for Issuing License" backgroundImage="Home Services Buttons Background.png">
+                                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iui-nS-zJ7">
+                                    <rect key="frame" x="0.0" y="112" width="230" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="25" id="Lar-he-CKL"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                    <state key="normal" title="   Letter to RTA for Renewing License" backgroundImage="Home Services Buttons Background.png">
+                                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TgU-sg-7Jc">
+                                    <rect key="frame" x="0.0" y="137" width="230" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="25" id="qDR-Bb-ZRX"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                    <state key="normal" title="   Letter to RTA for Car Registration" backgroundImage="Home Services Buttons Background.png">
+                                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tsy-z9-9kQ">
+                                    <rect key="frame" x="0.0" y="162" width="230" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="25" id="B7p-ua-3TP"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                    <state key="normal" title="   Commercial Letter to DED" backgroundImage="Home Services Buttons Background.png">
+                                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JZ8-W6-WUs">
+                                    <rect key="frame" x="0.0" y="187" width="230" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="30" id="rbV-pc-her"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                    <state key="normal" title="   Complaint Letter to Dubai Court" backgroundImage="Home Services Buttons Background.png">
+                                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="Tsy-z9-9kQ" firstAttribute="trailing" secondItem="JZ8-W6-WUs" secondAttribute="trailing" id="3r2-Iu-a12"/>
+                                <constraint firstItem="Tsy-z9-9kQ" firstAttribute="leading" secondItem="TgU-sg-7Jc" secondAttribute="leading" id="7Zw-bF-gdQ"/>
+                                <constraint firstItem="oiO-bM-Kgn" firstAttribute="top" secondItem="0Gm-Gn-FX0" secondAttribute="top" id="Ak1-2Y-hn6"/>
+                                <constraint firstItem="oiO-bM-Kgn" firstAttribute="trailing" secondItem="eMi-p0-U0b" secondAttribute="trailing" id="D9e-NG-hiA"/>
+                                <constraint firstItem="oiO-bM-Kgn" firstAttribute="leading" secondItem="GmO-Jq-sx8" secondAttribute="leading" id="GK9-rc-V4Z"/>
+                                <constraint firstItem="oiO-bM-Kgn" firstAttribute="top" secondItem="GmO-Jq-sx8" secondAttribute="top" id="HYT-3p-gdB"/>
+                                <constraint firstItem="iui-nS-zJ7" firstAttribute="trailing" secondItem="TgU-sg-7Jc" secondAttribute="trailing" id="IMA-XE-RDf"/>
+                                <constraint firstItem="GmO-Jq-sx8" firstAttribute="bottom" secondItem="oiO-bM-Kgn" secondAttribute="bottom" id="JcF-el-RHx"/>
+                                <constraint firstItem="bqh-3M-8tH" firstAttribute="leading" secondItem="0Gm-Gn-FX0" secondAttribute="leading" id="Jeu-9Z-25p"/>
+                                <constraint firstItem="eMi-p0-U0b" firstAttribute="leading" secondItem="bqh-3M-8tH" secondAttribute="leading" id="QfO-d9-ScB"/>
+                                <constraint firstItem="JZ8-W6-WUs" firstAttribute="leading" secondItem="Tsy-z9-9kQ" secondAttribute="leading" id="VDs-wr-KaE"/>
+                                <constraint firstAttribute="bottom" secondItem="JZ8-W6-WUs" secondAttribute="bottom" constant="8" id="VIl-zB-Jk7"/>
+                                <constraint firstItem="eMi-p0-U0b" firstAttribute="top" secondItem="oiO-bM-Kgn" secondAttribute="bottom" id="WFg-QP-uXC"/>
+                                <constraint firstItem="oiO-bM-Kgn" firstAttribute="leading" secondItem="eMi-p0-U0b" secondAttribute="leading" id="cTN-Xs-RCl"/>
+                                <constraint firstItem="Tsy-z9-9kQ" firstAttribute="trailing" secondItem="TgU-sg-7Jc" secondAttribute="trailing" id="dg4-bl-8qc"/>
+                                <constraint firstItem="bqh-3M-8tH" firstAttribute="trailing" secondItem="iui-nS-zJ7" secondAttribute="trailing" id="eCO-zb-1Hq"/>
+                                <constraint firstItem="iui-nS-zJ7" firstAttribute="leading" secondItem="bqh-3M-8tH" secondAttribute="leading" id="f4C-5e-jjb"/>
+                                <constraint firstAttribute="trailing" secondItem="JZ8-W6-WUs" secondAttribute="trailing" id="icP-1o-hW8"/>
+                                <constraint firstItem="bqh-3M-8tH" firstAttribute="top" secondItem="eMi-p0-U0b" secondAttribute="bottom" id="jTc-R8-JzB"/>
+                                <constraint firstItem="JZ8-W6-WUs" firstAttribute="top" secondItem="Tsy-z9-9kQ" secondAttribute="bottom" id="jx0-lr-SUj"/>
+                                <constraint firstItem="oiO-bM-Kgn" firstAttribute="trailing" secondItem="GmO-Jq-sx8" secondAttribute="trailing" id="mrc-Po-Cha"/>
+                                <constraint firstItem="Tsy-z9-9kQ" firstAttribute="top" secondItem="TgU-sg-7Jc" secondAttribute="bottom" id="pfL-Wt-rCb"/>
+                                <constraint firstItem="iui-nS-zJ7" firstAttribute="top" secondItem="bqh-3M-8tH" secondAttribute="bottom" id="ufM-hI-uqC"/>
+                                <constraint firstItem="iui-nS-zJ7" firstAttribute="leading" secondItem="TgU-sg-7Jc" secondAttribute="leading" id="vxJ-pt-ftS"/>
+                                <constraint firstItem="TgU-sg-7Jc" firstAttribute="top" secondItem="iui-nS-zJ7" secondAttribute="bottom" id="wDD-Wh-RdW"/>
+                                <constraint firstItem="bqh-3M-8tH" firstAttribute="trailing" secondItem="eMi-p0-U0b" secondAttribute="trailing" id="wt3-Dw-r4G"/>
+                            </constraints>
+                        </view>
+                        <view appearanceType="aqua" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KMv-pM-eC3">
+                            <rect key="frame" x="486" y="37" width="230" height="225"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Services Header Label.png" translatesAutoresizingMaskIntoConstraints="NO" id="A08-1J-EE9">
+                                    <rect key="frame" x="0.0" y="0.0" width="230" height="57"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="    ACCESS PASSES &amp; CARDS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qV3-UU-9kX">
+                                    <rect key="frame" x="0.0" y="0.0" width="230" height="57"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="12"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fXW-am-Cez">
+                                    <rect key="frame" x="0.0" y="57" width="230" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="30" id="N9o-Lj-3Hj"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                    <state key="normal" title="   Apply New Work Permit" backgroundImage="Home Services Buttons Background.png">
+                                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k0G-9t-QXs">
+                                    <rect key="frame" x="0.0" y="87" width="230" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="25" id="MR4-tA-7EE"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                    <state key="normal" title="   Renewal of Work Permit" backgroundImage="Home Services Buttons Background.png">
+                                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cyS-6f-xfq">
+                                    <rect key="frame" x="0.0" y="112" width="230" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="25" id="z1Y-Ok-tVF"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                    <state key="normal" title="   Apply Frequent Visitor Pass" backgroundImage="Home Services Buttons Background.png">
+                                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LXA-nH-t5N">
+                                    <rect key="frame" x="0.0" y="137" width="230" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="25" id="fT3-J9-kby"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                    <state key="normal" title="   Apply Contractor Pass" backgroundImage="Home Services Buttons Background.png">
+                                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ghd-68-6zz">
+                                    <rect key="frame" x="0.0" y="162" width="230" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="25" id="Tdt-Gw-CXg"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                    <state key="normal" title="   Replacement of Employee Card" backgroundImage="Home Services Buttons Background.png">
+                                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Home Services Buttons Background.png" translatesAutoresizingMaskIntoConstraints="NO" id="iAn-lW-FCY">
+                                    <rect key="frame" x="0.0" y="187" width="230" height="27"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="27" id="41J-Qs-Dnr"/>
+                                    </constraints>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="qV3-UU-9kX" secondAttribute="trailing" id="0Dy-lw-iOP"/>
+                                <constraint firstAttribute="bottom" secondItem="iAn-lW-FCY" secondAttribute="bottom" constant="11" id="9M9-lm-gIv"/>
+                                <constraint firstItem="fXW-am-Cez" firstAttribute="leading" secondItem="k0G-9t-QXs" secondAttribute="leading" id="Apv-68-pFD"/>
+                                <constraint firstItem="qV3-UU-9kX" firstAttribute="bottom" secondItem="A08-1J-EE9" secondAttribute="bottom" id="CFs-c9-Wy2"/>
+                                <constraint firstItem="k0G-9t-QXs" firstAttribute="trailing" secondItem="cyS-6f-xfq" secondAttribute="trailing" id="Dlp-l5-k2f"/>
+                                <constraint firstItem="iAn-lW-FCY" firstAttribute="top" secondItem="ghd-68-6zz" secondAttribute="bottom" id="E1G-NQ-7rv"/>
+                                <constraint firstItem="LXA-nH-t5N" firstAttribute="top" secondItem="cyS-6f-xfq" secondAttribute="bottom" id="FxH-yV-IlM"/>
+                                <constraint firstItem="ghd-68-6zz" firstAttribute="trailing" secondItem="iAn-lW-FCY" secondAttribute="trailing" id="Fxh-Fn-QQE"/>
+                                <constraint firstItem="qV3-UU-9kX" firstAttribute="top" secondItem="A08-1J-EE9" secondAttribute="top" id="M7f-iu-eSU"/>
+                                <constraint firstItem="ghd-68-6zz" firstAttribute="top" secondItem="LXA-nH-t5N" secondAttribute="bottom" id="MRy-18-VV8"/>
+                                <constraint firstItem="A08-1J-EE9" firstAttribute="trailing" secondItem="fXW-am-Cez" secondAttribute="trailing" id="Npe-R9-gd9"/>
+                                <constraint firstItem="LXA-nH-t5N" firstAttribute="leading" secondItem="cyS-6f-xfq" secondAttribute="leading" id="VPS-xT-1cF"/>
+                                <constraint firstItem="k0G-9t-QXs" firstAttribute="top" secondItem="fXW-am-Cez" secondAttribute="bottom" id="fFe-gO-uNt"/>
+                                <constraint firstItem="qV3-UU-9kX" firstAttribute="top" secondItem="KMv-pM-eC3" secondAttribute="top" id="g6N-bA-eQr"/>
+                                <constraint firstItem="fXW-am-Cez" firstAttribute="trailing" secondItem="k0G-9t-QXs" secondAttribute="trailing" id="gsh-F7-Hsh"/>
+                                <constraint firstItem="qV3-UU-9kX" firstAttribute="leading" secondItem="A08-1J-EE9" secondAttribute="leading" id="gux-hF-7zM"/>
+                                <constraint firstItem="qV3-UU-9kX" firstAttribute="leading" secondItem="fXW-am-Cez" secondAttribute="leading" id="i5G-FE-9GP"/>
+                                <constraint firstItem="ghd-68-6zz" firstAttribute="trailing" secondItem="LXA-nH-t5N" secondAttribute="trailing" id="k55-aT-uP6"/>
+                                <constraint firstItem="LXA-nH-t5N" firstAttribute="trailing" secondItem="cyS-6f-xfq" secondAttribute="trailing" id="kyW-xm-rAM"/>
+                                <constraint firstItem="ghd-68-6zz" firstAttribute="leading" secondItem="iAn-lW-FCY" secondAttribute="leading" id="lRa-fh-Q3f"/>
+                                <constraint firstItem="qV3-UU-9kX" firstAttribute="leading" secondItem="KMv-pM-eC3" secondAttribute="leading" id="n71-1w-HxJ"/>
+                                <constraint firstItem="LXA-nH-t5N" firstAttribute="leading" secondItem="ghd-68-6zz" secondAttribute="leading" id="nRk-Dc-X0Z"/>
+                                <constraint firstItem="fXW-am-Cez" firstAttribute="top" secondItem="A08-1J-EE9" secondAttribute="bottom" id="njn-h7-JTw"/>
+                                <constraint firstItem="qV3-UU-9kX" firstAttribute="trailing" secondItem="A08-1J-EE9" secondAttribute="trailing" id="oRs-ns-Vjz"/>
+                                <constraint firstItem="cyS-6f-xfq" firstAttribute="leading" secondItem="k0G-9t-QXs" secondAttribute="leading" id="sqx-Vp-htd"/>
+                                <constraint firstItem="cyS-6f-xfq" firstAttribute="top" secondItem="k0G-9t-QXs" secondAttribute="bottom" id="zMG-DB-eaj"/>
+                            </constraints>
+                        </view>
+                        <view appearanceType="aqua" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dlQ-vn-pya">
+                            <rect key="frame" x="0.0" y="286" width="230" height="225"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Services Header Label.png" translatesAutoresizingMaskIntoConstraints="NO" id="LNg-G5-n7x">
+                                    <rect key="frame" x="0.0" y="0.0" width="230" height="57"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="   ISSUE NOCs" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MSo-W7-iDm">
+                                    <rect key="frame" x="0.0" y="0.0" width="230" height="57"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="12"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MQl-7g-tbz">
+                                    <rect key="frame" x="0.0" y="57" width="230" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="30" id="ToW-Ga-OCk"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                    <state key="normal" title="   NOC for Visa Cancellation" backgroundImage="Home Services Buttons Background.png">
+                                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZAe-fp-QB5">
+                                    <rect key="frame" x="0.0" y="87" width="230" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="25" id="JKn-3n-vSQ"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                    <state key="normal" title="   NOC for Job Title Change" backgroundImage="Home Services Buttons Background.png">
+                                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ZH-Y7-78c">
+                                    <rect key="frame" x="0.0" y="112" width="230" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="25" id="9Yw-5u-5p8"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                    <state key="normal" title="   NOC for Name Change" backgroundImage="Home Services Buttons Background.png">
+                                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Home Services Buttons Background.png" translatesAutoresizingMaskIntoConstraints="NO" id="7F5-ky-85b">
+                                    <rect key="frame" x="0.0" y="137" width="230" height="27"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="27" id="cih-be-cXH"/>
+                                    </constraints>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="LNg-G5-n7x" firstAttribute="leading" secondItem="dlQ-vn-pya" secondAttribute="leading" id="0as-hn-Wh8"/>
+                                <constraint firstItem="LNg-G5-n7x" firstAttribute="trailing" secondItem="MSo-W7-iDm" secondAttribute="trailing" id="8fq-B0-1gh"/>
+                                <constraint firstItem="ZAe-fp-QB5" firstAttribute="leading" secondItem="6ZH-Y7-78c" secondAttribute="leading" id="Cd5-Ug-B5m"/>
+                                <constraint firstItem="ZAe-fp-QB5" firstAttribute="trailing" secondItem="6ZH-Y7-78c" secondAttribute="trailing" id="DFw-l1-zHl"/>
+                                <constraint firstAttribute="height" constant="225" id="Fr1-IU-12v"/>
+                                <constraint firstItem="ZAe-fp-QB5" firstAttribute="top" secondItem="MQl-7g-tbz" secondAttribute="bottom" id="GGK-DZ-mhm"/>
+                                <constraint firstItem="MQl-7g-tbz" firstAttribute="leading" secondItem="ZAe-fp-QB5" secondAttribute="leading" id="JBg-dm-fT9"/>
+                                <constraint firstItem="7F5-ky-85b" firstAttribute="trailing" secondItem="6ZH-Y7-78c" secondAttribute="trailing" id="NLb-So-T0o"/>
+                                <constraint firstItem="6ZH-Y7-78c" firstAttribute="leading" secondItem="7F5-ky-85b" secondAttribute="leading" id="VzA-TP-l1P"/>
+                                <constraint firstItem="MQl-7g-tbz" firstAttribute="leading" secondItem="LNg-G5-n7x" secondAttribute="leading" id="Xfw-OI-bX7"/>
+                                <constraint firstItem="6ZH-Y7-78c" firstAttribute="top" secondItem="ZAe-fp-QB5" secondAttribute="bottom" id="Yba-5b-Ig4"/>
+                                <constraint firstItem="7F5-ky-85b" firstAttribute="top" secondItem="6ZH-Y7-78c" secondAttribute="bottom" id="dnC-xx-1Nb"/>
+                                <constraint firstAttribute="bottom" secondItem="7F5-ky-85b" secondAttribute="bottom" constant="61" id="ezW-Sb-gLn"/>
+                                <constraint firstItem="MQl-7g-tbz" firstAttribute="top" secondItem="LNg-G5-n7x" secondAttribute="bottom" id="g1H-NZ-duk"/>
+                                <constraint firstItem="LNg-G5-n7x" firstAttribute="bottom" secondItem="MSo-W7-iDm" secondAttribute="bottom" id="ja4-rx-QGc"/>
+                                <constraint firstItem="ZAe-fp-QB5" firstAttribute="trailing" secondItem="MQl-7g-tbz" secondAttribute="trailing" id="m9X-3T-gd6"/>
+                                <constraint firstItem="LNg-G5-n7x" firstAttribute="leading" secondItem="MSo-W7-iDm" secondAttribute="leading" id="qsW-t2-dTY"/>
+                                <constraint firstItem="LNg-G5-n7x" firstAttribute="top" secondItem="dlQ-vn-pya" secondAttribute="top" id="rEd-B7-g4X"/>
+                                <constraint firstItem="LNg-G5-n7x" firstAttribute="trailing" secondItem="MQl-7g-tbz" secondAttribute="trailing" id="rPs-Lc-4XC"/>
+                                <constraint firstItem="LNg-G5-n7x" firstAttribute="top" secondItem="MSo-W7-iDm" secondAttribute="top" id="vj1-ok-1NK"/>
+                            </constraints>
+                        </view>
+                        <view appearanceType="aqua" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="25V-0I-eL0">
+                            <rect key="frame" x="243" y="286" width="230" height="225"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Services Header Label.png" translatesAutoresizingMaskIntoConstraints="NO" id="0gH-M5-zUf">
+                                    <rect key="frame" x="0.0" y="0.0" width="230" height="57"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                </imageView>
+                                <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="   DEPENDENT &amp; VISIT VISAS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tWs-BL-UK5">
+                                    <rect key="frame" x="0.0" y="0.0" width="230" height="57"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="12"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eg5-x6-JmV">
+                                    <rect key="frame" x="0.0" y="57" width="230" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="30" id="76v-Gf-xTE"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                    <state key="normal" title="   Apply Visit Visa" backgroundImage="Home Services Buttons Background.png">
+                                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fNp-KB-T2b">
+                                    <rect key="frame" x="0.0" y="87" width="230" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="25" id="gxe-iQ-rRQ"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                    <state key="normal" title="   Cancel Visit Visa" backgroundImage="Home Services Buttons Background.png">
+                                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9W1-B8-4mC">
+                                    <rect key="frame" x="0.0" y="112" width="230" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="25" id="UAX-h8-CAJ"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                    <state key="normal" title="   Apply Dependent Visa" backgroundImage="Home Services Buttons Background.png">
+                                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E0i-g4-8gv">
+                                    <rect key="frame" x="0.0" y="137" width="230" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="25" id="0CF-LE-hR4"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                    <state key="normal" title="   Cancel Dependent Visa" backgroundImage="Home Services Buttons Background.png">
+                                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dqn-iQ-eN2">
+                                    <rect key="frame" x="0.0" y="162" width="230" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="25" id="OgG-Yj-iHL"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                    <state key="normal" title="   Renew Depending Visa" backgroundImage="Home Services Buttons Background.png">
+                                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                </button>
+                                <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Home Services Buttons Background.png" translatesAutoresizingMaskIntoConstraints="NO" id="F7T-qe-Iv6">
+                                    <rect key="frame" x="0.0" y="187" width="230" height="27"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="27" id="pFL-bA-Gmi"/>
+                                    </constraints>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="0gH-M5-zUf" firstAttribute="trailing" secondItem="Eg5-x6-JmV" secondAttribute="trailing" id="H9p-Lw-hh7"/>
+                                <constraint firstItem="fNp-KB-T2b" firstAttribute="leading" secondItem="Eg5-x6-JmV" secondAttribute="leading" id="JXI-FP-gdU"/>
+                                <constraint firstItem="fNp-KB-T2b" firstAttribute="trailing" secondItem="Eg5-x6-JmV" secondAttribute="trailing" id="MQG-Lo-lQJ"/>
+                                <constraint firstItem="9W1-B8-4mC" firstAttribute="leading" secondItem="fNp-KB-T2b" secondAttribute="leading" id="MZS-QA-sSF"/>
+                                <constraint firstItem="0gH-M5-zUf" firstAttribute="bottom" secondItem="tWs-BL-UK5" secondAttribute="bottom" id="Oe0-it-sTb"/>
+                                <constraint firstItem="9W1-B8-4mC" firstAttribute="top" secondItem="fNp-KB-T2b" secondAttribute="bottom" id="SLb-HW-Fkw"/>
+                                <constraint firstItem="Dqn-iQ-eN2" firstAttribute="leading" secondItem="25V-0I-eL0" secondAttribute="leading" id="W6i-LU-Otq"/>
+                                <constraint firstItem="0gH-M5-zUf" firstAttribute="trailing" secondItem="tWs-BL-UK5" secondAttribute="trailing" id="Xp6-V8-bpS"/>
+                                <constraint firstItem="Dqn-iQ-eN2" firstAttribute="top" secondItem="E0i-g4-8gv" secondAttribute="bottom" id="YKl-9Y-aG8"/>
+                                <constraint firstItem="9W1-B8-4mC" firstAttribute="trailing" secondItem="fNp-KB-T2b" secondAttribute="trailing" id="Yta-BW-lG2"/>
+                                <constraint firstItem="Dqn-iQ-eN2" firstAttribute="trailing" secondItem="E0i-g4-8gv" secondAttribute="trailing" id="aFk-r4-rMg"/>
+                                <constraint firstItem="E0i-g4-8gv" firstAttribute="leading" secondItem="9W1-B8-4mC" secondAttribute="leading" id="eEf-XY-eUn"/>
+                                <constraint firstItem="tWs-BL-UK5" firstAttribute="top" secondItem="25V-0I-eL0" secondAttribute="top" id="ekn-Db-F1l"/>
+                                <constraint firstAttribute="bottom" secondItem="F7T-qe-Iv6" secondAttribute="bottom" constant="11" id="fNI-7h-roi"/>
+                                <constraint firstItem="fNp-KB-T2b" firstAttribute="top" secondItem="Eg5-x6-JmV" secondAttribute="bottom" id="jRC-zd-JuG"/>
+                                <constraint firstItem="tWs-BL-UK5" firstAttribute="leading" secondItem="0gH-M5-zUf" secondAttribute="leading" id="mWx-Qb-zZF"/>
+                                <constraint firstItem="E0i-g4-8gv" firstAttribute="top" secondItem="9W1-B8-4mC" secondAttribute="bottom" id="mYI-ZU-FTe"/>
+                                <constraint firstItem="F7T-qe-Iv6" firstAttribute="leading" secondItem="Dqn-iQ-eN2" secondAttribute="leading" id="nUX-pT-erZ"/>
+                                <constraint firstItem="Eg5-x6-JmV" firstAttribute="leading" secondItem="0gH-M5-zUf" secondAttribute="leading" id="nnv-1K-AuH"/>
+                                <constraint firstItem="Dqn-iQ-eN2" firstAttribute="leading" secondItem="E0i-g4-8gv" secondAttribute="leading" id="sYs-sH-ke8"/>
+                                <constraint firstItem="Eg5-x6-JmV" firstAttribute="top" secondItem="tWs-BL-UK5" secondAttribute="bottom" id="sjY-Eh-cXx"/>
+                                <constraint firstItem="F7T-qe-Iv6" firstAttribute="top" secondItem="Dqn-iQ-eN2" secondAttribute="bottom" id="tS2-UK-tuZ"/>
+                                <constraint firstItem="E0i-g4-8gv" firstAttribute="trailing" secondItem="9W1-B8-4mC" secondAttribute="trailing" id="tbL-0c-xsG"/>
+                                <constraint firstItem="Dqn-iQ-eN2" firstAttribute="trailing" secondItem="F7T-qe-Iv6" secondAttribute="trailing" id="uZh-7N-6SH"/>
+                                <constraint firstItem="0gH-M5-zUf" firstAttribute="top" secondItem="tWs-BL-UK5" secondAttribute="top" id="zaj-TP-gUk"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="dlQ-vn-pya" firstAttribute="top" secondItem="25V-0I-eL0" secondAttribute="top" id="7Rg-Vd-dg8"/>
+                        <constraint firstItem="cL7-99-iCn" firstAttribute="top" secondItem="rfP-GN-pmu" secondAttribute="top" constant="37" id="9sd-vK-gWh"/>
+                        <constraint firstAttribute="trailing" secondItem="KMv-pM-eC3" secondAttribute="trailing" constant="30" id="DkH-PI-Pgg"/>
+                        <constraint firstItem="cL7-99-iCn" firstAttribute="top" secondItem="0Gm-Gn-FX0" secondAttribute="top" id="DuC-dV-sng"/>
+                        <constraint firstItem="cL7-99-iCn" firstAttribute="trailing" secondItem="dlQ-vn-pya" secondAttribute="trailing" id="GjJ-S0-V0m"/>
+                        <constraint firstItem="0Gm-Gn-FX0" firstAttribute="trailing" secondItem="25V-0I-eL0" secondAttribute="trailing" id="Jmd-k7-lqi"/>
+                        <constraint firstItem="KMv-pM-eC3" firstAttribute="top" secondItem="0Gm-Gn-FX0" secondAttribute="top" id="Lta-i6-dSG"/>
+                        <constraint firstItem="dlQ-vn-pya" firstAttribute="bottom" secondItem="25V-0I-eL0" secondAttribute="bottom" id="M5P-WZ-d8B"/>
+                        <constraint firstItem="25V-0I-eL0" firstAttribute="leading" secondItem="0Gm-Gn-FX0" secondAttribute="leading" id="VYp-Le-Mtu"/>
+                        <constraint firstItem="dlQ-vn-pya" firstAttribute="leading" secondItem="cL7-99-iCn" secondAttribute="leading" id="gP5-o0-Wsz"/>
+                        <constraint firstAttribute="bottom" secondItem="dlQ-vn-pya" secondAttribute="bottom" constant="189" id="jbC-kS-Gjn"/>
+                        <constraint firstItem="dlQ-vn-pya" firstAttribute="top" secondItem="cL7-99-iCn" secondAttribute="bottom" constant="24" id="lYr-vZ-7ju"/>
+                        <constraint firstItem="cL7-99-iCn" firstAttribute="leading" secondItem="rfP-GN-pmu" secondAttribute="leading" id="qYZ-rA-540"/>
+                        <constraint firstItem="KMv-pM-eC3" firstAttribute="leading" secondItem="0Gm-Gn-FX0" secondAttribute="trailing" constant="13" id="sDZ-4J-Wdu"/>
+                        <constraint firstItem="KMv-pM-eC3" firstAttribute="bottom" secondItem="0Gm-Gn-FX0" secondAttribute="bottom" id="tk6-VT-p08"/>
+                        <constraint firstItem="0Gm-Gn-FX0" firstAttribute="leading" secondItem="cL7-99-iCn" secondAttribute="trailing" constant="13" id="vHL-Fi-ahI"/>
+                        <constraint firstItem="cL7-99-iCn" firstAttribute="bottom" secondItem="0Gm-Gn-FX0" secondAttribute="bottom" id="yeQ-Gj-Mka"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="rfP-GN-pmu" secondAttribute="bottom" id="2NE-SU-1fA"/>
+                <constraint firstItem="rfP-GN-pmu" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Woe-XJ-e9v"/>
+                <constraint firstItem="rfP-GN-pmu" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="gnq-Xo-jKH"/>
+                <constraint firstAttribute="trailing" secondItem="rfP-GN-pmu" secondAttribute="trailing" id="gtB-lK-dXt"/>
+            </constraints>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Home Services Buttons Background.png" width="209" height="41"/>
+        <image name="Services Header Label.png" width="230" height="56"/>
+    </resources>
+</document>

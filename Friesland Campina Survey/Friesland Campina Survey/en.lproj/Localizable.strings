@@ -1,0 +1,170 @@
+/* 
+  File.strings
+  EstimationCalculator
+
+  Created by Mina Zaklama on 9/3/13.
+  Copyright (c) 2013 ZAPP Island. All rights reserved.
+*/
+
+"app_name" = "Friesland Survey";
+
+/* Submit button */
+"submit" = "SUBMIT";
+
+/* Next button */
+"next" = "NEXT";
+
+/* Back button */
+"back" = "BACK";
+
+/* Footer text in questions pages */
+"questions_footer" = "If you have any questions about the survey, please contact us at feedback@firesland.ae or call +9714 814 1111";
+
+/* Ok */
+"ok" = "Ok";
+
+/* Error messgae when Single Select Question */
+"single_select_error_message" = "Select an option in order to process to next question";
+
+/* Error messgae when Single Select Question is last question*/
+"single_select_error_message_last_question" = "Select an option in order to submit your survey";
+
+/* Error messgae when Text Question */
+"text_error_message" = "Provide an answer in order to process to next question";
+
+/* Error messgae when Text Question is last question */
+"text_error_message_last_question" = "Provide an answer in order to submit your survey";
+
+/* Error Title */
+"error" = "Error";
+
+/* Registered Compnay Title */
+"registered_company_title" = "REGISTERED";
+
+/* Non Registered Compnay Title */
+"non_registered_company_title" = "NON-REGISTERED";
+
+/* Text for Company Name label in Select Company popover */
+"company_name_label" = "Company Name:";
+
+/* Text for Company Phone label in Select Company popover */
+"person_name_label" = "Person Name:";
+
+/* Text for Company Email label in Select Company popover */
+"designation_label" = "Designation:";
+
+/* Placeholder for Company Name text field in Select Company popover */
+"company_name_placeholder" = "Enter Company Name";
+
+/* Placeholder for Company Phone text field in Select Company popover */
+"person_name_placeholder" = "Enter Person Name";
+
+/* Placeholder for Company Email text field in Select Company popover */
+"designation_placeholder" = "Enter Designation";
+
+/* Select button in Select Company popover */
+"select" = "SELECT";
+
+/* Start Survey Button first line */
+"start_survey_button_line_one" = "YOUR FEEDBACK IS IMPORTANT TO US";
+
+/* Start Survey Button second line */
+"start_survey_button_line_two" = "CLICK HERE TO START SURVEY";
+
+/* Survey Name Not Entered Error Title */
+"survey_name_error_title" = "Survey Name Error";
+
+/* Survey Name Not Entered Error Message */
+"survey_name_error_msg" = "Please enter the Survey Name you want to take in the settings.";
+
+/* No Questions found Error Title */
+"no_questions_error_title" = "No Questions Found";
+
+/* No Questions found Error Message */
+"no_questions_error_msg" = "No questions found for this survey name.";
+
+
+/* Question One */
+"question_1" = "How long was your wait before speaking with our customer service representative";
+
+/* Question One, Answer One */
+"question_1__answer_1" = "Extremely long";
+
+/* Question One, Answer Two */
+"question_1__answer_2" = "Quite long";
+
+/* Question One, Answer Three */
+"question_1__answer_3" = "Moderately long";
+
+/* Question One, Answer Four */
+"question_1__answer_4" = "Slightly long";
+
+/* Question One, Answer Five */
+"question_1__answer_5" = "Not at all long";
+
+
+/* Question Two */
+"question_2" = "How knowledgeable did our customer service representative seem to you";
+
+/* Question Two, Answer One */
+"question_2__answer_1" = "Extremely knowledgeable";
+
+/* Question Two, Answer Two */
+"question_2__answer_2" = "Quite knowledgeable";
+
+/* Question Two, Answer Three */
+"question_2__answer_3" = "Moderately knowledgeable";
+
+/* Question Two, Answer Four */
+"question_2__answer_4" = "Slightly knowledgeable";
+
+/* Question Two, Answer Five */
+"question_2__answer_5" = "Not at all knowledgeable";
+
+
+/* Question Three */
+"question_3" = "Overall, are you satisfied with the service you received";
+
+/* Question Three, Answer One */
+"question_3__answer_1" = "Quite satisfied";
+
+/* Question Three, Answer Two */
+"question_3__answer_2" = "Somewhat satisfied";
+
+/* Question Three, Answer Three */
+"question_3__answer_3" = "Somewhat dissatisfied";
+
+/* Question Three, Answer Four */
+"question_3__answer_4" = "Quite dissatisfied";
+
+/* Question Three, Answer Five */
+"question_3__answer_5" = "Extremely dissatisfied";
+
+
+/* Question Four */
+"question_4" = "How likely are you to recommend our company to people you know";
+
+/* Question Four, Answer One */
+"question_4__answer_1" = "Extremely likely";
+
+/* Question Four, Answer Two */
+"question_4__answer_2" = "Very likely";
+
+/* Question Four, Answer Three */
+"question_4__answer_3" = "Moderately likely";
+
+/* Question Four, Answer Four */
+"question_4__answer_4" = "Slightly likely";
+
+/* Question Four, Answer Five */
+"question_4__answer_5" = "Not at all likely";
+
+
+/* Question Five */
+"question_5" = "Please share with us a few things about Product/Service could do better.";
+
+/* Select Register Company Alert Title */
+"select_registered_company_title" = "Select a Company";
+
+/* Select Register Company Alert Message */
+"select_registered_company_message" = "Please select a registered company.";

@@ -1,0 +1,1250 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		135190E9194D62F9003F86AB /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 135190E8194D62F9003F86AB /* Employee.m */; };
+		135190F0194D6F62003F86AB /* Charles Winston.png in Resources */ = {isa = PBXBuildFile; fileRef = 135190EC194D6F62003F86AB /* Charles Winston.png */; };
+		135190F1194D6F62003F86AB /* Marissa Mayer.png in Resources */ = {isa = PBXBuildFile; fileRef = 135190ED194D6F62003F86AB /* Marissa Mayer.png */; };
+		135190F2194D6F62003F86AB /* Nihonjin No Shimei.png in Resources */ = {isa = PBXBuildFile; fileRef = 135190EE194D6F62003F86AB /* Nihonjin No Shimei.png */; };
+		1357D36C1949D62100A473F4 /* Employees Cards Horizontal Separator@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1357D36A1949D62100A473F4 /* Employees Cards Horizontal Separator@2x~ipad.png */; };
+		1357D36D1949D62100A473F4 /* Employees Cards Horizontal Separator~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1357D36B1949D62100A473F4 /* Employees Cards Horizontal Separator~ipad.png */; };
+		135F9A2619484B59001D055F /* Services Header Label@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 135F9A2419484B59001D055F /* Services Header Label@2x~ipad.png */; };
+		135F9A2719484B59001D055F /* Services Header Label~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 135F9A2519484B59001D055F /* Services Header Label~ipad.png */; };
+		1367F30C193462E300D4BEAB /* Default Profile Image.png in Resources */ = {isa = PBXBuildFile; fileRef = 1367F30B193462E300D4BEAB /* Default Profile Image.png */; };
+		1367F30F1934680E00D4BEAB /* Home Background@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1367F30D1934680E00D4BEAB /* Home Background@2x~ipad.png */; };
+		1367F3101934680E00D4BEAB /* Home Background~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1367F30E1934680E00D4BEAB /* Home Background~ipad.png */; };
+		1367F31319347C3900D4BEAB /* List Header Background@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1367F31119347C3800D4BEAB /* List Header Background@2x~ipad.png */; };
+		1367F31419347C3900D4BEAB /* List Header Background~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1367F31219347C3800D4BEAB /* List Header Background~ipad.png */; };
+		1367F31719348E8600D4BEAB /* Home Services Buttons Background@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1367F31519348E8600D4BEAB /* Home Services Buttons Background@2x~ipad.png */; };
+		1367F31819348E8600D4BEAB /* Home Services Buttons Background~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1367F31619348E8600D4BEAB /* Home Services Buttons Background~ipad.png */; };
+		1367F31B193497C200D4BEAB /* Company Services Homepage Icon@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1367F319193497C200D4BEAB /* Company Services Homepage Icon@2x~ipad.png */; };
+		1367F31C193497C200D4BEAB /* Company Services Homepage Icon~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1367F31A193497C200D4BEAB /* Company Services Homepage Icon~ipad.png */; };
+		1367F31F193497CD00D4BEAB /* Employee Services Homepage Icon@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1367F31D193497CD00D4BEAB /* Employee Services Homepage Icon@2x~ipad.png */; };
+		1367F320193497CD00D4BEAB /* Employee Services Homepage Icon~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1367F31E193497CD00D4BEAB /* Employee Services Homepage Icon~ipad.png */; };
+		1367F323193497DB00D4BEAB /* Leases Services Homepage Icon@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1367F321193497DB00D4BEAB /* Leases Services Homepage Icon@2x~ipad.png */; };
+		1367F324193497DB00D4BEAB /* Leases Services Homepage Icon~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1367F322193497DB00D4BEAB /* Leases Services Homepage Icon~ipad.png */; };
+		1367F327193497E100D4BEAB /* Logistics Services Homepage Icon@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1367F325193497E100D4BEAB /* Logistics Services Homepage Icon@2x~ipad.png */; };
+		1367F328193497E100D4BEAB /* Logistics Services Homepage Icon~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1367F326193497E100D4BEAB /* Logistics Services Homepage Icon~ipad.png */; };
+		1369E30E1933AB35002D76B2 /* Circle Mask@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1369E2E61933AB35002D76B2 /* Circle Mask@2x~ipad.png */; };
+		1369E30F1933AB35002D76B2 /* Circle Mask~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1369E2E71933AB35002D76B2 /* Circle Mask~ipad.png */; };
+		1369E3101933AB35002D76B2 /* Company Icon Active@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1369E2E81933AB35002D76B2 /* Company Icon Active@2x~ipad.png */; };
+		1369E3111933AB35002D76B2 /* Company Icon Active~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1369E2E91933AB35002D76B2 /* Company Icon Active~ipad.png */; };
+		1369E3121933AB35002D76B2 /* Company Icon Inactive@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1369E2EA1933AB35002D76B2 /* Company Icon Inactive@2x~ipad.png */; };
+		1369E3131933AB35002D76B2 /* Company Icon Inactive~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1369E2EB1933AB35002D76B2 /* Company Icon Inactive~ipad.png */; };
+		1369E3141933AB35002D76B2 /* DWC Header Logo@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1369E2EC1933AB35002D76B2 /* DWC Header Logo@2x~ipad.png */; };
+		1369E3151933AB35002D76B2 /* DWC Header Logo~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1369E2ED1933AB35002D76B2 /* DWC Header Logo~ipad.png */; };
+		1369E3161933AB35002D76B2 /* Employees Icon Active@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1369E2EE1933AB35002D76B2 /* Employees Icon Active@2x~ipad.png */; };
+		1369E3171933AB35002D76B2 /* Employees Icon Active~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1369E2EF1933AB35002D76B2 /* Employees Icon Active~ipad.png */; };
+		1369E3181933AB35002D76B2 /* Employees Icon Inactive@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1369E2F01933AB35002D76B2 /* Employees Icon Inactive@2x~ipad.png */; };
+		1369E3191933AB35002D76B2 /* Employees Icon Inactive~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1369E2F11933AB35002D76B2 /* Employees Icon Inactive~ipad.png */; };
+		1369E31A1933AB35002D76B2 /* Gear Icon@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1369E2F21933AB35002D76B2 /* Gear Icon@2x~ipad.png */; };
+		1369E31B1933AB35002D76B2 /* Gear Icon~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1369E2F31933AB35002D76B2 /* Gear Icon~ipad.png */; };
+		1369E31C1933AB35002D76B2 /* HeaderBackground@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1369E2F41933AB35002D76B2 /* HeaderBackground@2x~ipad.png */; };
+		1369E31D1933AB35002D76B2 /* HeaderBackground~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1369E2F51933AB35002D76B2 /* HeaderBackground~ipad.png */; };
+		1369E31E1933AB35002D76B2 /* Home Icon Active@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1369E2F61933AB35002D76B2 /* Home Icon Active@2x~ipad.png */; };
+		1369E31F1933AB35002D76B2 /* Home Icon Active~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1369E2F71933AB35002D76B2 /* Home Icon Active~ipad.png */; };
+		1369E3201933AB35002D76B2 /* Home Icon Inactive@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1369E2F81933AB35002D76B2 /* Home Icon Inactive@2x~ipad.png */; };
+		1369E3211933AB35002D76B2 /* Home Icon Inactive~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1369E2F91933AB35002D76B2 /* Home Icon Inactive~ipad.png */; };
+		1369E3221933AB35002D76B2 /* Leases Icon Active@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1369E2FA1933AB35002D76B2 /* Leases Icon Active@2x~ipad.png */; };
+		1369E3231933AB35002D76B2 /* Leases Icon Active~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1369E2FB1933AB35002D76B2 /* Leases Icon Active~ipad.png */; };
+		1369E3241933AB35002D76B2 /* Leases Icon Inactive@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1369E2FC1933AB35002D76B2 /* Leases Icon Inactive@2x~ipad.png */; };
+		1369E3251933AB35002D76B2 /* Leases Icon Inactive~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1369E2FD1933AB35002D76B2 /* Leases Icon Inactive~ipad.png */; };
+		1369E3261933AB35002D76B2 /* Notification Badge Icon@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1369E2FE1933AB35002D76B2 /* Notification Badge Icon@2x~ipad.png */; };
+		1369E3271933AB35002D76B2 /* Notification Badge Icon~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1369E2FF1933AB35002D76B2 /* Notification Badge Icon~ipad.png */; };
+		1369E3281933AB35002D76B2 /* Notification Icon@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1369E3001933AB35002D76B2 /* Notification Icon@2x~ipad.png */; };
+		1369E3291933AB35002D76B2 /* Notification Icon~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1369E3011933AB35002D76B2 /* Notification Icon~ipad.png */; };
+		1369E32A1933AB35002D76B2 /* Payments Icon Active@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1369E3021933AB35002D76B2 /* Payments Icon Active@2x~ipad.png */; };
+		1369E32B1933AB35002D76B2 /* Payments Icon Active~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1369E3031933AB35002D76B2 /* Payments Icon Active~ipad.png */; };
+		1369E32C1933AB35002D76B2 /* Payments Icon Inactive@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1369E3041933AB35002D76B2 /* Payments Icon Inactive@2x~ipad.png */; };
+		1369E32D1933AB35002D76B2 /* Payments Icon Inactive~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1369E3051933AB35002D76B2 /* Payments Icon Inactive~ipad.png */; };
+		1369E32E1933AB35002D76B2 /* Power Icon@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1369E3061933AB35002D76B2 /* Power Icon@2x~ipad.png */; };
+		1369E32F1933AB35002D76B2 /* Power Icon~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1369E3071933AB35002D76B2 /* Power Icon~ipad.png */; };
+		1369E3301933AB35002D76B2 /* Service History Icon Active@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1369E3081933AB35002D76B2 /* Service History Icon Active@2x~ipad.png */; };
+		1369E3311933AB35002D76B2 /* Service History Icon Active~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1369E3091933AB35002D76B2 /* Service History Icon Active~ipad.png */; };
+		1369E3321933AB35002D76B2 /* Service History Icon Inactive@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1369E30A1933AB35002D76B2 /* Service History Icon Inactive@2x~ipad.png */; };
+		1369E3331933AB35002D76B2 /* Service History Icon Inactive~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1369E30B1933AB35002D76B2 /* Service History Icon Inactive~ipad.png */; };
+		1369E3341933AB35002D76B2 /* What Are You Looking For@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1369E30C1933AB35002D76B2 /* What Are You Looking For@2x~ipad.png */; };
+		1369E3351933AB35002D76B2 /* What Are You Looking For~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1369E30D1933AB35002D76B2 /* What Are You Looking For~ipad.png */; };
+		137A1D1A1946DDE6000CAFC9 /* Dark Settings Button@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 137A1D181946DDE6000CAFC9 /* Dark Settings Button@2x~ipad.png */; };
+		137A1D1B1946DDE6000CAFC9 /* Dark Settings Button~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 137A1D191946DDE6000CAFC9 /* Dark Settings Button~ipad.png */; };
+		137A1D1E1946E3B1000CAFC9 /* App Settings Icon@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 137A1D1C1946E3B1000CAFC9 /* App Settings Icon@2x~ipad.png */; };
+		137A1D1F1946E3B1000CAFC9 /* App Settings Icon~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 137A1D1D1946E3B1000CAFC9 /* App Settings Icon~ipad.png */; };
+		137A1D221946E3BE000CAFC9 /* Email Preference Icon@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 137A1D201946E3BE000CAFC9 /* Email Preference Icon@2x~ipad.png */; };
+		137A1D231946E3BE000CAFC9 /* Email Preference Icon~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 137A1D211946E3BE000CAFC9 /* Email Preference Icon~ipad.png */; };
+		137A1D261946E3D1000CAFC9 /* Manage Users Icon@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 137A1D241946E3D1000CAFC9 /* Manage Users Icon@2x~ipad.png */; };
+		137A1D271946E3D1000CAFC9 /* Manage Users Icon~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 137A1D251946E3D1000CAFC9 /* Manage Users Icon~ipad.png */; };
+		137A1D2A1946E3DE000CAFC9 /* SMS Preference Icon@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 137A1D281946E3DE000CAFC9 /* SMS Preference Icon@2x~ipad.png */; };
+		137A1D2B1946E3DE000CAFC9 /* SMS Preference Icon~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 137A1D291946E3DE000CAFC9 /* SMS Preference Icon~ipad.png */; };
+		137A1D2E1946E6DE000CAFC9 /* Horizontal Separator@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 137A1D2C1946E6DE000CAFC9 /* Horizontal Separator@2x~ipad.png */; };
+		137A1D2F1946E6DE000CAFC9 /* Horizontal Separator~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 137A1D2D1946E6DE000CAFC9 /* Horizontal Separator~ipad.png */; };
+		13868B201946FCCA00B53C3A /* SettingsPopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13868B1E1946FCCA00B53C3A /* SettingsPopoverViewController.m */; };
+		13868B211946FCCA00B53C3A /* SettingsPopoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13868B1F1946FCCA00B53C3A /* SettingsPopoverViewController.xib */; };
+		13C0AA5A194EB5490044160C /* VisaRenewalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C0AA58194EB5490044160C /* VisaRenewalViewController.m */; };
+		13C0AA5B194EB5490044160C /* VisaRenewalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13C0AA59194EB5490044160C /* VisaRenewalViewController.xib */; };
+		13C0AA5E194EB5B30044160C /* Visa Renewal Header Background@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 13C0AA5C194EB5B30044160C /* Visa Renewal Header Background@2x~ipad.png */; };
+		13C0AA5F194EB5B30044160C /* Visa Renewal Header Background~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 13C0AA5D194EB5B30044160C /* Visa Renewal Header Background~ipad.png */; };
+		13C0AA66194EBC870044160C /* NotificationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C0AA64194EBC870044160C /* NotificationTableViewCell.m */; };
+		13C0AA67194EBC870044160C /* NotificationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13C0AA65194EBC870044160C /* NotificationTableViewCell.xib */; };
+		13C0AA6A194EC1820044160C /* NotificationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C0AA69194EC1820044160C /* NotificationItem.m */; };
+		13C0AA6F194EE1760044160C /* TodoListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C0AA6D194EE1760044160C /* TodoListTableViewCell.m */; };
+		13C0AA70194EE1760044160C /* TodoListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13C0AA6E194EE1760044160C /* TodoListTableViewCell.xib */; };
+		13C0AA79194EE88F0044160C /* Todo List Blue Button Background@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 13C0AA71194EE88F0044160C /* Todo List Blue Button Background@2x~ipad.png */; };
+		13C0AA7A194EE88F0044160C /* Todo List Blue Button Background~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 13C0AA72194EE88F0044160C /* Todo List Blue Button Background~ipad.png */; };
+		13C0AA7B194EE88F0044160C /* Todo List Green Button Background@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 13C0AA73194EE88F0044160C /* Todo List Green Button Background@2x~ipad.png */; };
+		13C0AA7C194EE88F0044160C /* Todo List Green Button Background~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 13C0AA74194EE88F0044160C /* Todo List Green Button Background~ipad.png */; };
+		13C0AA7D194EE88F0044160C /* Todo List Orange Button Background@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 13C0AA75194EE88F0044160C /* Todo List Orange Button Background@2x~ipad.png */; };
+		13C0AA7E194EE88F0044160C /* Todo List Orange Button Background~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 13C0AA76194EE88F0044160C /* Todo List Orange Button Background~ipad.png */; };
+		13C0AA7F194EE88F0044160C /* Todo List Red Button Background@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 13C0AA77194EE88F0044160C /* Todo List Red Button Background@2x~ipad.png */; };
+		13C0AA80194EE88F0044160C /* Todo List Red Button Background~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 13C0AA78194EE88F0044160C /* Todo List Red Button Background~ipad.png */; };
+		13C0AA83194EE8B10044160C /* TodoListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C0AA82194EE8B10044160C /* TodoListItem.m */; };
+		13C0AA88194F07200044160C /* CompanyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C0AA86194F07200044160C /* CompanyViewController.m */; };
+		13C0AA89194F07200044160C /* CompanyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13C0AA87194F07200044160C /* CompanyViewController.xib */; };
+		13CCD8DE19496F83001870E2 /* CompanyServicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CCD8DB19496F83001870E2 /* CompanyServicesViewController.m */; };
+		13CCD8DF19496F83001870E2 /* CompanyServicesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13CCD8DC19496F83001870E2 /* CompanyServicesViewController.xib */; };
+		13CCD8E319496FB4001870E2 /* EmployeeServicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CCD8E119496FB4001870E2 /* EmployeeServicesViewController.m */; };
+		13CCD8E419496FB4001870E2 /* EmployeeServicesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13CCD8E219496FB4001870E2 /* EmployeeServicesViewController.xib */; };
+		13CCD8E9194986B9001870E2 /* EmployeesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CCD8E7194986B9001870E2 /* EmployeesViewController.m */; };
+		13CCD8EA194986B9001870E2 /* EmployeesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13CCD8E8194986B9001870E2 /* EmployeesViewController.xib */; };
+		13CEA62E193333A70098E01A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CEA62D193333A70098E01A /* Foundation.framework */; };
+		13CEA630193333A70098E01A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CEA62F193333A70098E01A /* CoreGraphics.framework */; };
+		13CEA632193333A70098E01A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CEA631193333A70098E01A /* UIKit.framework */; };
+		13CEA638193333A80098E01A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13CEA636193333A80098E01A /* InfoPlist.strings */; };
+		13CEA63A193333A80098E01A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CEA639193333A80098E01A /* main.m */; };
+		13CEA63E193333A80098E01A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CEA63D193333A80098E01A /* AppDelegate.m */; };
+		13CEA646193333A80098E01A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13CEA645193333A80098E01A /* Images.xcassets */; };
+		13CEA64D193333A80098E01A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CEA64C193333A80098E01A /* XCTest.framework */; };
+		13CEA64E193333A80098E01A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CEA62D193333A70098E01A /* Foundation.framework */; };
+		13CEA64F193333A80098E01A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CEA631193333A70098E01A /* UIKit.framework */; };
+		13CEA657193333A80098E01A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13CEA655193333A80098E01A /* InfoPlist.strings */; };
+		13CEA659193333A80098E01A /* DWC_eServicesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CEA658193333A80098E01A /* DWC_eServicesTests.m */; };
+		13CEA669193334090098E01A /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 13CEA664193334090098E01A /* icon-72.png */; };
+		13CEA66A193334090098E01A /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13CEA665193334090098E01A /* icon-72@2x.png */; };
+		13CEA66B193334090098E01A /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 13CEA666193334090098E01A /* icon.png */; };
+		13CEA66C193334090098E01A /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 13CEA667193334090098E01A /* icon@2x.png */; };
+		13CEA672193343CA0098E01A /* HeaderUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CEA670193343CA0098E01A /* HeaderUIViewController.m */; };
+		13CEA673193343CA0098E01A /* HeaderUIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13CEA671193343CA0098E01A /* HeaderUIViewController.xib */; };
+		13CEA6E319336EB50098E01A /* HelperClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CEA6E219336EB50098E01A /* HelperClass.m */; };
+		13DC715A194DB4360003B0E0 /* Dropdown Button Icon@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 13DC7158194DB4360003B0E0 /* Dropdown Button Icon@2x~ipad.png */; };
+		13DC715B194DB4360003B0E0 /* Dropdown Button Icon~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 13DC7159194DB4360003B0E0 /* Dropdown Button Icon~ipad.png */; };
+		13DD2F101947249800B2F869 /* NotificationsPopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13DD2F0E1947249800B2F869 /* NotificationsPopoverViewController.m */; };
+		13DD2F111947249800B2F869 /* NotificationsPopoverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13DD2F0F1947249800B2F869 /* NotificationsPopoverViewController.xib */; };
+		13DE22ED1956AC8200C27826 /* Company Tab Button Active Background@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 13DE22E91956AC8200C27826 /* Company Tab Button Active Background@2x~ipad.png */; };
+		13DE22EE1956AC8200C27826 /* Company Tab Button Active Background~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 13DE22EA1956AC8200C27826 /* Company Tab Button Active Background~ipad.png */; };
+		13DE22EF1956AC8200C27826 /* Company Tab Button Inactive Background@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 13DE22EB1956AC8200C27826 /* Company Tab Button Inactive Background@2x~ipad.png */; };
+		13DE22F01956AC8200C27826 /* Company Tab Button Inactive Background~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 13DE22EC1956AC8200C27826 /* Company Tab Button Inactive Background~ipad.png */; };
+		13E1540D1949C96B00FC8B69 /* Blue Button Background@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 13E1540B1949C96B00FC8B69 /* Blue Button Background@2x~ipad.png */; };
+		13E1540E1949C96B00FC8B69 /* Blue Button Background~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 13E1540C1949C96B00FC8B69 /* Blue Button Background~ipad.png */; };
+		13E154121949CADE00FC8B69 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E154111949CADE00FC8B69 /* LoginViewController.m */; };
+		13E5A21A1935B88600789991 /* HomepageUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E5A2191935B88600789991 /* HomepageUIViewController.m */; };
+		13E5A21C1935B8AC00789991 /* HomepageUIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13E5A21B1935B8AC00789991 /* HomepageUIViewController.xib */; };
+		13E5A2201935BCA100789991 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E5A21F1935BCA100789991 /* BaseViewController.m */; };
+		13E5A2251935CAF000789991 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13E5A2231935CAF000789991 /* Main.storyboard */; };
+		13E5A22C1935D72B00789991 /* LeftPanelUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E5A22A1935D72B00789991 /* LeftPanelUIViewController.m */; };
+		13E5A22D1935D72B00789991 /* LeftPanelUIViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13E5A22B1935D72B00789991 /* LeftPanelUIViewController.xib */; };
+		13E5A2301935DE0600789991 /* Left Panel Background@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 13E5A22E1935DE0600789991 /* Left Panel Background@2x~ipad.png */; };
+		13E5A2311935DE0600789991 /* Left Panel Background~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 13E5A22F1935DE0600789991 /* Left Panel Background~ipad.png */; };
+		13EA1B57194D7DD4004162E0 /* Abigail Johnson.png in Resources */ = {isa = PBXBuildFile; fileRef = 13EA1B56194D7DD4004162E0 /* Abigail Johnson.png */; };
+		13EA1B5A194D8962004162E0 /* Employees Card Button Background@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 13EA1B58194D8962004162E0 /* Employees Card Button Background@2x~ipad.png */; };
+		13EA1B5B194D8962004162E0 /* Employees Card Button Background~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 13EA1B59194D8962004162E0 /* Employees Card Button Background~ipad.png */; };
+		13EA1B5E194D8EB7004162E0 /* Employees Sort Button Background@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 13EA1B5C194D8EB7004162E0 /* Employees Sort Button Background@2x~ipad.png */; };
+		13EA1B5F194D8EB7004162E0 /* Employees Sort Button Background~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 13EA1B5D194D8EB7004162E0 /* Employees Sort Button Background~ipad.png */; };
+		13F12103194C9E8600AF905A /* EmployeesCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F12101194C9E8600AF905A /* EmployeesCollectionViewCell.m */; };
+		13F12108194CA2CA00AF905A /* EmployeesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13F12107194CA2CA00AF905A /* EmployeesCollectionViewCell.xib */; };
+		13F21DC91952EDF00025A96B /* Company Action Button Background@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 13F21DC71952EDF00025A96B /* Company Action Button Background@2x~ipad.png */; };
+		13F21DCA1952EDF00025A96B /* Company Action Button Background~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 13F21DC81952EDF00025A96B /* Company Action Button Background~ipad.png */; };
+		13F21DCD1952EE8B0025A96B /* Aramex Company Image@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 13F21DCB1952EE8B0025A96B /* Aramex Company Image@2x~ipad.png */; };
+		13F21DCE1952EE8B0025A96B /* Aramex Company Image~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 13F21DCC1952EE8B0025A96B /* Aramex Company Image~ipad.png */; };
+		13F21DD11952F11B0025A96B /* Company Background@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 13F21DCF1952F11B0025A96B /* Company Background@2x~ipad.png */; };
+		13F21DD21952F11B0025A96B /* Company Background~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 13F21DD01952F11B0025A96B /* Company Background~ipad.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13CEA650193333A80098E01A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13CEA622193333A70098E01A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13CEA629193333A70098E01A;
+			remoteInfo = "DWC eServices";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		135190E7194D62F9003F86AB /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		135190E8194D62F9003F86AB /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		135190EC194D6F62003F86AB /* Charles Winston.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Charles Winston.png"; sourceTree = "<group>"; };
+		135190ED194D6F62003F86AB /* Marissa Mayer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Marissa Mayer.png"; sourceTree = "<group>"; };
+		135190EE194D6F62003F86AB /* Nihonjin No Shimei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Nihonjin No Shimei.png"; sourceTree = "<group>"; };
+		1357D36A1949D62100A473F4 /* Employees Cards Horizontal Separator@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Employees Cards Horizontal Separator@2x~ipad.png"; sourceTree = "<group>"; };
+		1357D36B1949D62100A473F4 /* Employees Cards Horizontal Separator~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Employees Cards Horizontal Separator~ipad.png"; sourceTree = "<group>"; };
+		135F9A2419484B59001D055F /* Services Header Label@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Services Header Label@2x~ipad.png"; sourceTree = "<group>"; };
+		135F9A2519484B59001D055F /* Services Header Label~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Services Header Label~ipad.png"; sourceTree = "<group>"; };
+		1367F30B193462E300D4BEAB /* Default Profile Image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default Profile Image.png"; sourceTree = "<group>"; };
+		1367F30D1934680E00D4BEAB /* Home Background@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home Background@2x~ipad.png"; sourceTree = "<group>"; };
+		1367F30E1934680E00D4BEAB /* Home Background~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home Background~ipad.png"; sourceTree = "<group>"; };
+		1367F31119347C3800D4BEAB /* List Header Background@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "List Header Background@2x~ipad.png"; sourceTree = "<group>"; };
+		1367F31219347C3800D4BEAB /* List Header Background~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "List Header Background~ipad.png"; sourceTree = "<group>"; };
+		1367F31519348E8600D4BEAB /* Home Services Buttons Background@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home Services Buttons Background@2x~ipad.png"; sourceTree = "<group>"; };
+		1367F31619348E8600D4BEAB /* Home Services Buttons Background~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home Services Buttons Background~ipad.png"; sourceTree = "<group>"; };
+		1367F319193497C200D4BEAB /* Company Services Homepage Icon@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Company Services Homepage Icon@2x~ipad.png"; sourceTree = "<group>"; };
+		1367F31A193497C200D4BEAB /* Company Services Homepage Icon~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Company Services Homepage Icon~ipad.png"; sourceTree = "<group>"; };
+		1367F31D193497CD00D4BEAB /* Employee Services Homepage Icon@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Employee Services Homepage Icon@2x~ipad.png"; sourceTree = "<group>"; };
+		1367F31E193497CD00D4BEAB /* Employee Services Homepage Icon~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Employee Services Homepage Icon~ipad.png"; sourceTree = "<group>"; };
+		1367F321193497DB00D4BEAB /* Leases Services Homepage Icon@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Leases Services Homepage Icon@2x~ipad.png"; sourceTree = "<group>"; };
+		1367F322193497DB00D4BEAB /* Leases Services Homepage Icon~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Leases Services Homepage Icon~ipad.png"; sourceTree = "<group>"; };
+		1367F325193497E100D4BEAB /* Logistics Services Homepage Icon@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Logistics Services Homepage Icon@2x~ipad.png"; sourceTree = "<group>"; };
+		1367F326193497E100D4BEAB /* Logistics Services Homepage Icon~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Logistics Services Homepage Icon~ipad.png"; sourceTree = "<group>"; };
+		1369E2E61933AB35002D76B2 /* Circle Mask@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Circle Mask@2x~ipad.png"; sourceTree = "<group>"; };
+		1369E2E71933AB35002D76B2 /* Circle Mask~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Circle Mask~ipad.png"; sourceTree = "<group>"; };
+		1369E2E81933AB35002D76B2 /* Company Icon Active@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Company Icon Active@2x~ipad.png"; sourceTree = "<group>"; };
+		1369E2E91933AB35002D76B2 /* Company Icon Active~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Company Icon Active~ipad.png"; sourceTree = "<group>"; };
+		1369E2EA1933AB35002D76B2 /* Company Icon Inactive@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Company Icon Inactive@2x~ipad.png"; sourceTree = "<group>"; };
+		1369E2EB1933AB35002D76B2 /* Company Icon Inactive~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Company Icon Inactive~ipad.png"; sourceTree = "<group>"; };
+		1369E2EC1933AB35002D76B2 /* DWC Header Logo@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DWC Header Logo@2x~ipad.png"; sourceTree = "<group>"; };
+		1369E2ED1933AB35002D76B2 /* DWC Header Logo~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DWC Header Logo~ipad.png"; sourceTree = "<group>"; };
+		1369E2EE1933AB35002D76B2 /* Employees Icon Active@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Employees Icon Active@2x~ipad.png"; sourceTree = "<group>"; };
+		1369E2EF1933AB35002D76B2 /* Employees Icon Active~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Employees Icon Active~ipad.png"; sourceTree = "<group>"; };
+		1369E2F01933AB35002D76B2 /* Employees Icon Inactive@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Employees Icon Inactive@2x~ipad.png"; sourceTree = "<group>"; };
+		1369E2F11933AB35002D76B2 /* Employees Icon Inactive~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Employees Icon Inactive~ipad.png"; sourceTree = "<group>"; };
+		1369E2F21933AB35002D76B2 /* Gear Icon@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gear Icon@2x~ipad.png"; sourceTree = "<group>"; };
+		1369E2F31933AB35002D76B2 /* Gear Icon~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gear Icon~ipad.png"; sourceTree = "<group>"; };
+		1369E2F41933AB35002D76B2 /* HeaderBackground@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HeaderBackground@2x~ipad.png"; sourceTree = "<group>"; };
+		1369E2F51933AB35002D76B2 /* HeaderBackground~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HeaderBackground~ipad.png"; sourceTree = "<group>"; };
+		1369E2F61933AB35002D76B2 /* Home Icon Active@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home Icon Active@2x~ipad.png"; sourceTree = "<group>"; };
+		1369E2F71933AB35002D76B2 /* Home Icon Active~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home Icon Active~ipad.png"; sourceTree = "<group>"; };
+		1369E2F81933AB35002D76B2 /* Home Icon Inactive@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home Icon Inactive@2x~ipad.png"; sourceTree = "<group>"; };
+		1369E2F91933AB35002D76B2 /* Home Icon Inactive~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home Icon Inactive~ipad.png"; sourceTree = "<group>"; };
+		1369E2FA1933AB35002D76B2 /* Leases Icon Active@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Leases Icon Active@2x~ipad.png"; sourceTree = "<group>"; };
+		1369E2FB1933AB35002D76B2 /* Leases Icon Active~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Leases Icon Active~ipad.png"; sourceTree = "<group>"; };
+		1369E2FC1933AB35002D76B2 /* Leases Icon Inactive@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Leases Icon Inactive@2x~ipad.png"; sourceTree = "<group>"; };
+		1369E2FD1933AB35002D76B2 /* Leases Icon Inactive~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Leases Icon Inactive~ipad.png"; sourceTree = "<group>"; };
+		1369E2FE1933AB35002D76B2 /* Notification Badge Icon@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Notification Badge Icon@2x~ipad.png"; sourceTree = "<group>"; };
+		1369E2FF1933AB35002D76B2 /* Notification Badge Icon~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Notification Badge Icon~ipad.png"; sourceTree = "<group>"; };
+		1369E3001933AB35002D76B2 /* Notification Icon@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Notification Icon@2x~ipad.png"; sourceTree = "<group>"; };
+		1369E3011933AB35002D76B2 /* Notification Icon~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Notification Icon~ipad.png"; sourceTree = "<group>"; };
+		1369E3021933AB35002D76B2 /* Payments Icon Active@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Payments Icon Active@2x~ipad.png"; sourceTree = "<group>"; };
+		1369E3031933AB35002D76B2 /* Payments Icon Active~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Payments Icon Active~ipad.png"; sourceTree = "<group>"; };
+		1369E3041933AB35002D76B2 /* Payments Icon Inactive@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Payments Icon Inactive@2x~ipad.png"; sourceTree = "<group>"; };
+		1369E3051933AB35002D76B2 /* Payments Icon Inactive~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Payments Icon Inactive~ipad.png"; sourceTree = "<group>"; };
+		1369E3061933AB35002D76B2 /* Power Icon@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Power Icon@2x~ipad.png"; sourceTree = "<group>"; };
+		1369E3071933AB35002D76B2 /* Power Icon~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Power Icon~ipad.png"; sourceTree = "<group>"; };
+		1369E3081933AB35002D76B2 /* Service History Icon Active@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Service History Icon Active@2x~ipad.png"; sourceTree = "<group>"; };
+		1369E3091933AB35002D76B2 /* Service History Icon Active~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Service History Icon Active~ipad.png"; sourceTree = "<group>"; };
+		1369E30A1933AB35002D76B2 /* Service History Icon Inactive@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Service History Icon Inactive@2x~ipad.png"; sourceTree = "<group>"; };
+		1369E30B1933AB35002D76B2 /* Service History Icon Inactive~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Service History Icon Inactive~ipad.png"; sourceTree = "<group>"; };
+		1369E30C1933AB35002D76B2 /* What Are You Looking For@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "What Are You Looking For@2x~ipad.png"; sourceTree = "<group>"; };
+		1369E30D1933AB35002D76B2 /* What Are You Looking For~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "What Are You Looking For~ipad.png"; sourceTree = "<group>"; };
+		137A1D181946DDE6000CAFC9 /* Dark Settings Button@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dark Settings Button@2x~ipad.png"; sourceTree = "<group>"; };
+		137A1D191946DDE6000CAFC9 /* Dark Settings Button~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dark Settings Button~ipad.png"; sourceTree = "<group>"; };
+		137A1D1C1946E3B1000CAFC9 /* App Settings Icon@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Settings Icon@2x~ipad.png"; sourceTree = "<group>"; };
+		137A1D1D1946E3B1000CAFC9 /* App Settings Icon~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App Settings Icon~ipad.png"; sourceTree = "<group>"; };
+		137A1D201946E3BE000CAFC9 /* Email Preference Icon@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Email Preference Icon@2x~ipad.png"; sourceTree = "<group>"; };
+		137A1D211946E3BE000CAFC9 /* Email Preference Icon~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Email Preference Icon~ipad.png"; sourceTree = "<group>"; };
+		137A1D241946E3D1000CAFC9 /* Manage Users Icon@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Manage Users Icon@2x~ipad.png"; sourceTree = "<group>"; };
+		137A1D251946E3D1000CAFC9 /* Manage Users Icon~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Manage Users Icon~ipad.png"; sourceTree = "<group>"; };
+		137A1D281946E3DE000CAFC9 /* SMS Preference Icon@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SMS Preference Icon@2x~ipad.png"; sourceTree = "<group>"; };
+		137A1D291946E3DE000CAFC9 /* SMS Preference Icon~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SMS Preference Icon~ipad.png"; sourceTree = "<group>"; };
+		137A1D2C1946E6DE000CAFC9 /* Horizontal Separator@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Horizontal Separator@2x~ipad.png"; sourceTree = "<group>"; };
+		137A1D2D1946E6DE000CAFC9 /* Horizontal Separator~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Horizontal Separator~ipad.png"; sourceTree = "<group>"; };
+		13868B1D1946FCCA00B53C3A /* SettingsPopoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsPopoverViewController.h; sourceTree = "<group>"; };
+		13868B1E1946FCCA00B53C3A /* SettingsPopoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsPopoverViewController.m; sourceTree = "<group>"; };
+		13868B1F1946FCCA00B53C3A /* SettingsPopoverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsPopoverViewController.xib; sourceTree = "<group>"; };
+		13C0AA57194EB5490044160C /* VisaRenewalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisaRenewalViewController.h; sourceTree = "<group>"; };
+		13C0AA58194EB5490044160C /* VisaRenewalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisaRenewalViewController.m; sourceTree = "<group>"; };
+		13C0AA59194EB5490044160C /* VisaRenewalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VisaRenewalViewController.xib; sourceTree = "<group>"; };
+		13C0AA5C194EB5B30044160C /* Visa Renewal Header Background@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Visa Renewal Header Background@2x~ipad.png"; sourceTree = "<group>"; };
+		13C0AA5D194EB5B30044160C /* Visa Renewal Header Background~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Visa Renewal Header Background~ipad.png"; sourceTree = "<group>"; };
+		13C0AA63194EBC870044160C /* NotificationTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationTableViewCell.h; sourceTree = "<group>"; };
+		13C0AA64194EBC870044160C /* NotificationTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationTableViewCell.m; sourceTree = "<group>"; };
+		13C0AA65194EBC870044160C /* NotificationTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotificationTableViewCell.xib; sourceTree = "<group>"; };
+		13C0AA68194EC1820044160C /* NotificationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationItem.h; sourceTree = "<group>"; };
+		13C0AA69194EC1820044160C /* NotificationItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationItem.m; sourceTree = "<group>"; };
+		13C0AA6C194EE1760044160C /* TodoListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoListTableViewCell.h; sourceTree = "<group>"; };
+		13C0AA6D194EE1760044160C /* TodoListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoListTableViewCell.m; sourceTree = "<group>"; };
+		13C0AA6E194EE1760044160C /* TodoListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TodoListTableViewCell.xib; sourceTree = "<group>"; };
+		13C0AA71194EE88F0044160C /* Todo List Blue Button Background@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Todo List Blue Button Background@2x~ipad.png"; sourceTree = "<group>"; };
+		13C0AA72194EE88F0044160C /* Todo List Blue Button Background~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Todo List Blue Button Background~ipad.png"; sourceTree = "<group>"; };
+		13C0AA73194EE88F0044160C /* Todo List Green Button Background@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Todo List Green Button Background@2x~ipad.png"; sourceTree = "<group>"; };
+		13C0AA74194EE88F0044160C /* Todo List Green Button Background~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Todo List Green Button Background~ipad.png"; sourceTree = "<group>"; };
+		13C0AA75194EE88F0044160C /* Todo List Orange Button Background@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Todo List Orange Button Background@2x~ipad.png"; sourceTree = "<group>"; };
+		13C0AA76194EE88F0044160C /* Todo List Orange Button Background~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Todo List Orange Button Background~ipad.png"; sourceTree = "<group>"; };
+		13C0AA77194EE88F0044160C /* Todo List Red Button Background@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Todo List Red Button Background@2x~ipad.png"; sourceTree = "<group>"; };
+		13C0AA78194EE88F0044160C /* Todo List Red Button Background~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Todo List Red Button Background~ipad.png"; sourceTree = "<group>"; };
+		13C0AA81194EE8B10044160C /* TodoListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoListItem.h; sourceTree = "<group>"; };
+		13C0AA82194EE8B10044160C /* TodoListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoListItem.m; sourceTree = "<group>"; };
+		13C0AA85194F07200044160C /* CompanyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyViewController.h; sourceTree = "<group>"; };
+		13C0AA86194F07200044160C /* CompanyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyViewController.m; sourceTree = "<group>"; };
+		13C0AA87194F07200044160C /* CompanyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CompanyViewController.xib; sourceTree = "<group>"; };
+		13CCD8DA19496F83001870E2 /* CompanyServicesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyServicesViewController.h; sourceTree = "<group>"; };
+		13CCD8DB19496F83001870E2 /* CompanyServicesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyServicesViewController.m; sourceTree = "<group>"; };
+		13CCD8DC19496F83001870E2 /* CompanyServicesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CompanyServicesViewController.xib; sourceTree = "<group>"; };
+		13CCD8E019496FB4001870E2 /* EmployeeServicesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeServicesViewController.h; sourceTree = "<group>"; };
+		13CCD8E119496FB4001870E2 /* EmployeeServicesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeServicesViewController.m; sourceTree = "<group>"; };
+		13CCD8E219496FB4001870E2 /* EmployeeServicesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmployeeServicesViewController.xib; sourceTree = "<group>"; };
+		13CCD8E6194986B9001870E2 /* EmployeesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeesViewController.h; sourceTree = "<group>"; };
+		13CCD8E7194986B9001870E2 /* EmployeesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeesViewController.m; sourceTree = "<group>"; };
+		13CCD8E8194986B9001870E2 /* EmployeesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmployeesViewController.xib; sourceTree = "<group>"; };
+		13CEA62A193333A70098E01A /* DWC eServices.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DWC eServices.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13CEA62D193333A70098E01A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		13CEA62F193333A70098E01A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		13CEA631193333A70098E01A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		13CEA635193333A80098E01A /* DWC eServices-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DWC eServices-Info.plist"; sourceTree = "<group>"; };
+		13CEA637193333A80098E01A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		13CEA639193333A80098E01A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13CEA63B193333A80098E01A /* DWC eServices-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DWC eServices-Prefix.pch"; sourceTree = "<group>"; };
+		13CEA63C193333A80098E01A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		13CEA63D193333A80098E01A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		13CEA645193333A80098E01A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		13CEA64B193333A80098E01A /* DWC eServicesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DWC eServicesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13CEA64C193333A80098E01A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		13CEA654193333A80098E01A /* DWC eServicesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DWC eServicesTests-Info.plist"; sourceTree = "<group>"; };
+		13CEA656193333A80098E01A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		13CEA658193333A80098E01A /* DWC_eServicesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWC_eServicesTests.m; sourceTree = "<group>"; };
+		13CEA664193334090098E01A /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72.png"; sourceTree = "<group>"; };
+		13CEA665193334090098E01A /* icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72@2x.png"; sourceTree = "<group>"; };
+		13CEA666193334090098E01A /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		13CEA667193334090098E01A /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		13CEA66F193343CA0098E01A /* HeaderUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderUIViewController.h; sourceTree = "<group>"; };
+		13CEA670193343CA0098E01A /* HeaderUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderUIViewController.m; sourceTree = "<group>"; };
+		13CEA671193343CA0098E01A /* HeaderUIViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderUIViewController.xib; sourceTree = "<group>"; };
+		13CEA6E119336EB50098E01A /* HelperClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelperClass.h; sourceTree = "<group>"; };
+		13CEA6E219336EB50098E01A /* HelperClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelperClass.m; sourceTree = "<group>"; };
+		13DC7158194DB4360003B0E0 /* Dropdown Button Icon@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dropdown Button Icon@2x~ipad.png"; sourceTree = "<group>"; };
+		13DC7159194DB4360003B0E0 /* Dropdown Button Icon~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dropdown Button Icon~ipad.png"; sourceTree = "<group>"; };
+		13DD2F0D1947249800B2F869 /* NotificationsPopoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationsPopoverViewController.h; sourceTree = "<group>"; };
+		13DD2F0E1947249800B2F869 /* NotificationsPopoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationsPopoverViewController.m; sourceTree = "<group>"; };
+		13DD2F0F1947249800B2F869 /* NotificationsPopoverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotificationsPopoverViewController.xib; sourceTree = "<group>"; };
+		13DE22E91956AC8200C27826 /* Company Tab Button Active Background@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Company Tab Button Active Background@2x~ipad.png"; sourceTree = "<group>"; };
+		13DE22EA1956AC8200C27826 /* Company Tab Button Active Background~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Company Tab Button Active Background~ipad.png"; sourceTree = "<group>"; };
+		13DE22EB1956AC8200C27826 /* Company Tab Button Inactive Background@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Company Tab Button Inactive Background@2x~ipad.png"; sourceTree = "<group>"; };
+		13DE22EC1956AC8200C27826 /* Company Tab Button Inactive Background~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Company Tab Button Inactive Background~ipad.png"; sourceTree = "<group>"; };
+		13E1540B1949C96B00FC8B69 /* Blue Button Background@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue Button Background@2x~ipad.png"; sourceTree = "<group>"; };
+		13E1540C1949C96B00FC8B69 /* Blue Button Background~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue Button Background~ipad.png"; sourceTree = "<group>"; };
+		13E154101949CADE00FC8B69 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		13E154111949CADE00FC8B69 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		13E5A2181935B88600789991 /* HomepageUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomepageUIViewController.h; sourceTree = "<group>"; };
+		13E5A2191935B88600789991 /* HomepageUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomepageUIViewController.m; sourceTree = "<group>"; };
+		13E5A21B1935B8AC00789991 /* HomepageUIViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomepageUIViewController.xib; sourceTree = "<group>"; };
+		13E5A21E1935BCA100789991 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		13E5A21F1935BCA100789991 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		13E5A2241935CAF000789991 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13E5A2291935D72B00789991 /* LeftPanelUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftPanelUIViewController.h; sourceTree = "<group>"; };
+		13E5A22A1935D72B00789991 /* LeftPanelUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftPanelUIViewController.m; sourceTree = "<group>"; };
+		13E5A22B1935D72B00789991 /* LeftPanelUIViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftPanelUIViewController.xib; sourceTree = "<group>"; };
+		13E5A22E1935DE0600789991 /* Left Panel Background@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Left Panel Background@2x~ipad.png"; sourceTree = "<group>"; };
+		13E5A22F1935DE0600789991 /* Left Panel Background~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Left Panel Background~ipad.png"; sourceTree = "<group>"; };
+		13EA1B56194D7DD4004162E0 /* Abigail Johnson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Abigail Johnson.png"; sourceTree = "<group>"; };
+		13EA1B58194D8962004162E0 /* Employees Card Button Background@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Employees Card Button Background@2x~ipad.png"; sourceTree = "<group>"; };
+		13EA1B59194D8962004162E0 /* Employees Card Button Background~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Employees Card Button Background~ipad.png"; sourceTree = "<group>"; };
+		13EA1B5C194D8EB7004162E0 /* Employees Sort Button Background@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Employees Sort Button Background@2x~ipad.png"; sourceTree = "<group>"; };
+		13EA1B5D194D8EB7004162E0 /* Employees Sort Button Background~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Employees Sort Button Background~ipad.png"; sourceTree = "<group>"; };
+		13F12100194C9E8600AF905A /* EmployeesCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeesCollectionViewCell.h; sourceTree = "<group>"; };
+		13F12101194C9E8600AF905A /* EmployeesCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeesCollectionViewCell.m; sourceTree = "<group>"; };
+		13F12107194CA2CA00AF905A /* EmployeesCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmployeesCollectionViewCell.xib; sourceTree = "<group>"; };
+		13F21DC71952EDF00025A96B /* Company Action Button Background@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Company Action Button Background@2x~ipad.png"; sourceTree = "<group>"; };
+		13F21DC81952EDF00025A96B /* Company Action Button Background~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Company Action Button Background~ipad.png"; sourceTree = "<group>"; };
+		13F21DCB1952EE8B0025A96B /* Aramex Company Image@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Aramex Company Image@2x~ipad.png"; sourceTree = "<group>"; };
+		13F21DCC1952EE8B0025A96B /* Aramex Company Image~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Aramex Company Image~ipad.png"; sourceTree = "<group>"; };
+		13F21DCF1952F11B0025A96B /* Company Background@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Company Background@2x~ipad.png"; sourceTree = "<group>"; };
+		13F21DD01952F11B0025A96B /* Company Background~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Company Background~ipad.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13CEA627193333A70098E01A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CEA630193333A70098E01A /* CoreGraphics.framework in Frameworks */,
+				13CEA632193333A70098E01A /* UIKit.framework in Frameworks */,
+				13CEA62E193333A70098E01A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13CEA648193333A80098E01A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CEA64D193333A80098E01A /* XCTest.framework in Frameworks */,
+				13CEA64F193333A80098E01A /* UIKit.framework in Frameworks */,
+				13CEA64E193333A80098E01A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		135190EA194D6F62003F86AB /* Employees Images */ = {
+			isa = PBXGroup;
+			children = (
+				13EA1B56194D7DD4004162E0 /* Abigail Johnson.png */,
+				135190EC194D6F62003F86AB /* Charles Winston.png */,
+				135190ED194D6F62003F86AB /* Marissa Mayer.png */,
+				135190EE194D6F62003F86AB /* Nihonjin No Shimei.png */,
+			);
+			path = "Employees Images";
+			sourceTree = "<group>";
+		};
+		13C0AA56194EB5490044160C /* Visa Renewal View */ = {
+			isa = PBXGroup;
+			children = (
+				13C0AA57194EB5490044160C /* VisaRenewalViewController.h */,
+				13C0AA58194EB5490044160C /* VisaRenewalViewController.m */,
+				13C0AA59194EB5490044160C /* VisaRenewalViewController.xib */,
+			);
+			path = "Visa Renewal View";
+			sourceTree = "<group>";
+		};
+		13C0AA60194EB88D0044160C /* Notification Table View Cell */ = {
+			isa = PBXGroup;
+			children = (
+				13C0AA63194EBC870044160C /* NotificationTableViewCell.h */,
+				13C0AA64194EBC870044160C /* NotificationTableViewCell.m */,
+				13C0AA65194EBC870044160C /* NotificationTableViewCell.xib */,
+			);
+			path = "Notification Table View Cell";
+			sourceTree = "<group>";
+		};
+		13C0AA6B194ED4C30044160C /* Todo List Table View Cell */ = {
+			isa = PBXGroup;
+			children = (
+				13C0AA6C194EE1760044160C /* TodoListTableViewCell.h */,
+				13C0AA6D194EE1760044160C /* TodoListTableViewCell.m */,
+				13C0AA6E194EE1760044160C /* TodoListTableViewCell.xib */,
+			);
+			path = "Todo List Table View Cell";
+			sourceTree = "<group>";
+		};
+		13C0AA84194F07020044160C /* Company View */ = {
+			isa = PBXGroup;
+			children = (
+				13C0AA85194F07200044160C /* CompanyViewController.h */,
+				13C0AA86194F07200044160C /* CompanyViewController.m */,
+				13C0AA87194F07200044160C /* CompanyViewController.xib */,
+			);
+			path = "Company View";
+			sourceTree = "<group>";
+		};
+		13CCD8D919496F83001870E2 /* Company Services View */ = {
+			isa = PBXGroup;
+			children = (
+				13CCD8DA19496F83001870E2 /* CompanyServicesViewController.h */,
+				13CCD8DB19496F83001870E2 /* CompanyServicesViewController.m */,
+				13CCD8DC19496F83001870E2 /* CompanyServicesViewController.xib */,
+			);
+			path = "Company Services View";
+			sourceTree = "<group>";
+		};
+		13CCD8DD19496F83001870E2 /* Employee Services View */ = {
+			isa = PBXGroup;
+			children = (
+				13CCD8E019496FB4001870E2 /* EmployeeServicesViewController.h */,
+				13CCD8E119496FB4001870E2 /* EmployeeServicesViewController.m */,
+				13CCD8E219496FB4001870E2 /* EmployeeServicesViewController.xib */,
+			);
+			path = "Employee Services View";
+			sourceTree = "<group>";
+		};
+		13CCD8E5194986A6001870E2 /* Employees View */ = {
+			isa = PBXGroup;
+			children = (
+				13F120FF194C9E2C00AF905A /* Empoyees Collection View Cell */,
+				13CCD8E6194986B9001870E2 /* EmployeesViewController.h */,
+				13CCD8E7194986B9001870E2 /* EmployeesViewController.m */,
+				13CCD8E8194986B9001870E2 /* EmployeesViewController.xib */,
+			);
+			path = "Employees View";
+			sourceTree = "<group>";
+		};
+		13CEA621193333A70098E01A = {
+			isa = PBXGroup;
+			children = (
+				13CEA633193333A70098E01A /* DWC eServices */,
+				13CEA652193333A80098E01A /* DWC eServicesTests */,
+				13CEA62C193333A70098E01A /* Frameworks */,
+				13CEA62B193333A70098E01A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13CEA62B193333A70098E01A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13CEA62A193333A70098E01A /* DWC eServices.app */,
+				13CEA64B193333A80098E01A /* DWC eServicesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13CEA62C193333A70098E01A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13CEA62D193333A70098E01A /* Foundation.framework */,
+				13CEA62F193333A70098E01A /* CoreGraphics.framework */,
+				13CEA631193333A70098E01A /* UIKit.framework */,
+				13CEA64C193333A80098E01A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13CEA633193333A70098E01A /* DWC eServices */ = {
+			isa = PBXGroup;
+			children = (
+				13CEA6E019336E990098E01A /* Utils */,
+				13CEA66D1933340E0098E01A /* UI */,
+				13CEA63C193333A80098E01A /* AppDelegate.h */,
+				13CEA63D193333A80098E01A /* AppDelegate.m */,
+				13E5A2231935CAF000789991 /* Main.storyboard */,
+				13CEA645193333A80098E01A /* Images.xcassets */,
+				13CEA634193333A80098E01A /* Supporting Files */,
+			);
+			path = "DWC eServices";
+			sourceTree = "<group>";
+		};
+		13CEA634193333A80098E01A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13CEA662193334090098E01A /* Resources */,
+				13CEA635193333A80098E01A /* DWC eServices-Info.plist */,
+				13CEA636193333A80098E01A /* InfoPlist.strings */,
+				13CEA639193333A80098E01A /* main.m */,
+				13CEA63B193333A80098E01A /* DWC eServices-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13CEA652193333A80098E01A /* DWC eServicesTests */ = {
+			isa = PBXGroup;
+			children = (
+				13CEA658193333A80098E01A /* DWC_eServicesTests.m */,
+				13CEA653193333A80098E01A /* Supporting Files */,
+			);
+			path = "DWC eServicesTests";
+			sourceTree = "<group>";
+		};
+		13CEA653193333A80098E01A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13CEA654193333A80098E01A /* DWC eServicesTests-Info.plist */,
+				13CEA655193333A80098E01A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13CEA662193334090098E01A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				13CEA663193334090098E01A /* Icon */,
+				13CEA668193334090098E01A /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		13CEA663193334090098E01A /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				13CEA664193334090098E01A /* icon-72.png */,
+				13CEA665193334090098E01A /* icon-72@2x.png */,
+				13CEA666193334090098E01A /* icon.png */,
+				13CEA667193334090098E01A /* icon@2x.png */,
+			);
+			path = Icon;
+			sourceTree = "<group>";
+		};
+		13CEA668193334090098E01A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				135190EA194D6F62003F86AB /* Employees Images */,
+				137A1D1C1946E3B1000CAFC9 /* App Settings Icon@2x~ipad.png */,
+				137A1D1D1946E3B1000CAFC9 /* App Settings Icon~ipad.png */,
+				13F21DCB1952EE8B0025A96B /* Aramex Company Image@2x~ipad.png */,
+				13F21DCC1952EE8B0025A96B /* Aramex Company Image~ipad.png */,
+				13E1540B1949C96B00FC8B69 /* Blue Button Background@2x~ipad.png */,
+				13E1540C1949C96B00FC8B69 /* Blue Button Background~ipad.png */,
+				1369E2E61933AB35002D76B2 /* Circle Mask@2x~ipad.png */,
+				1369E2E71933AB35002D76B2 /* Circle Mask~ipad.png */,
+				13F21DC71952EDF00025A96B /* Company Action Button Background@2x~ipad.png */,
+				13F21DC81952EDF00025A96B /* Company Action Button Background~ipad.png */,
+				13F21DCF1952F11B0025A96B /* Company Background@2x~ipad.png */,
+				13F21DD01952F11B0025A96B /* Company Background~ipad.png */,
+				1369E2E81933AB35002D76B2 /* Company Icon Active@2x~ipad.png */,
+				1369E2E91933AB35002D76B2 /* Company Icon Active~ipad.png */,
+				1369E2EA1933AB35002D76B2 /* Company Icon Inactive@2x~ipad.png */,
+				1369E2EB1933AB35002D76B2 /* Company Icon Inactive~ipad.png */,
+				1367F319193497C200D4BEAB /* Company Services Homepage Icon@2x~ipad.png */,
+				1367F31A193497C200D4BEAB /* Company Services Homepage Icon~ipad.png */,
+				13DE22E91956AC8200C27826 /* Company Tab Button Active Background@2x~ipad.png */,
+				13DE22EA1956AC8200C27826 /* Company Tab Button Active Background~ipad.png */,
+				13DE22EB1956AC8200C27826 /* Company Tab Button Inactive Background@2x~ipad.png */,
+				13DE22EC1956AC8200C27826 /* Company Tab Button Inactive Background~ipad.png */,
+				137A1D181946DDE6000CAFC9 /* Dark Settings Button@2x~ipad.png */,
+				137A1D191946DDE6000CAFC9 /* Dark Settings Button~ipad.png */,
+				1367F30B193462E300D4BEAB /* Default Profile Image.png */,
+				13DC7158194DB4360003B0E0 /* Dropdown Button Icon@2x~ipad.png */,
+				13DC7159194DB4360003B0E0 /* Dropdown Button Icon~ipad.png */,
+				1369E2EC1933AB35002D76B2 /* DWC Header Logo@2x~ipad.png */,
+				1369E2ED1933AB35002D76B2 /* DWC Header Logo~ipad.png */,
+				137A1D201946E3BE000CAFC9 /* Email Preference Icon@2x~ipad.png */,
+				137A1D211946E3BE000CAFC9 /* Email Preference Icon~ipad.png */,
+				1367F31D193497CD00D4BEAB /* Employee Services Homepage Icon@2x~ipad.png */,
+				1367F31E193497CD00D4BEAB /* Employee Services Homepage Icon~ipad.png */,
+				13EA1B58194D8962004162E0 /* Employees Card Button Background@2x~ipad.png */,
+				13EA1B59194D8962004162E0 /* Employees Card Button Background~ipad.png */,
+				1357D36A1949D62100A473F4 /* Employees Cards Horizontal Separator@2x~ipad.png */,
+				1357D36B1949D62100A473F4 /* Employees Cards Horizontal Separator~ipad.png */,
+				1369E2EE1933AB35002D76B2 /* Employees Icon Active@2x~ipad.png */,
+				1369E2EF1933AB35002D76B2 /* Employees Icon Active~ipad.png */,
+				1369E2F01933AB35002D76B2 /* Employees Icon Inactive@2x~ipad.png */,
+				1369E2F11933AB35002D76B2 /* Employees Icon Inactive~ipad.png */,
+				13EA1B5C194D8EB7004162E0 /* Employees Sort Button Background@2x~ipad.png */,
+				13EA1B5D194D8EB7004162E0 /* Employees Sort Button Background~ipad.png */,
+				1369E2F21933AB35002D76B2 /* Gear Icon@2x~ipad.png */,
+				1369E2F31933AB35002D76B2 /* Gear Icon~ipad.png */,
+				1369E2F41933AB35002D76B2 /* HeaderBackground@2x~ipad.png */,
+				1369E2F51933AB35002D76B2 /* HeaderBackground~ipad.png */,
+				1367F30D1934680E00D4BEAB /* Home Background@2x~ipad.png */,
+				1367F30E1934680E00D4BEAB /* Home Background~ipad.png */,
+				1369E2F61933AB35002D76B2 /* Home Icon Active@2x~ipad.png */,
+				1369E2F71933AB35002D76B2 /* Home Icon Active~ipad.png */,
+				1369E2F81933AB35002D76B2 /* Home Icon Inactive@2x~ipad.png */,
+				1369E2F91933AB35002D76B2 /* Home Icon Inactive~ipad.png */,
+				1367F31519348E8600D4BEAB /* Home Services Buttons Background@2x~ipad.png */,
+				1367F31619348E8600D4BEAB /* Home Services Buttons Background~ipad.png */,
+				137A1D2C1946E6DE000CAFC9 /* Horizontal Separator@2x~ipad.png */,
+				137A1D2D1946E6DE000CAFC9 /* Horizontal Separator~ipad.png */,
+				1369E2FA1933AB35002D76B2 /* Leases Icon Active@2x~ipad.png */,
+				1369E2FB1933AB35002D76B2 /* Leases Icon Active~ipad.png */,
+				1369E2FC1933AB35002D76B2 /* Leases Icon Inactive@2x~ipad.png */,
+				1369E2FD1933AB35002D76B2 /* Leases Icon Inactive~ipad.png */,
+				1367F321193497DB00D4BEAB /* Leases Services Homepage Icon@2x~ipad.png */,
+				1367F322193497DB00D4BEAB /* Leases Services Homepage Icon~ipad.png */,
+				13E5A22E1935DE0600789991 /* Left Panel Background@2x~ipad.png */,
+				13E5A22F1935DE0600789991 /* Left Panel Background~ipad.png */,
+				1367F31119347C3800D4BEAB /* List Header Background@2x~ipad.png */,
+				1367F31219347C3800D4BEAB /* List Header Background~ipad.png */,
+				1367F325193497E100D4BEAB /* Logistics Services Homepage Icon@2x~ipad.png */,
+				1367F326193497E100D4BEAB /* Logistics Services Homepage Icon~ipad.png */,
+				137A1D241946E3D1000CAFC9 /* Manage Users Icon@2x~ipad.png */,
+				137A1D251946E3D1000CAFC9 /* Manage Users Icon~ipad.png */,
+				1369E2FE1933AB35002D76B2 /* Notification Badge Icon@2x~ipad.png */,
+				1369E2FF1933AB35002D76B2 /* Notification Badge Icon~ipad.png */,
+				1369E3001933AB35002D76B2 /* Notification Icon@2x~ipad.png */,
+				1369E3011933AB35002D76B2 /* Notification Icon~ipad.png */,
+				1369E3021933AB35002D76B2 /* Payments Icon Active@2x~ipad.png */,
+				1369E3031933AB35002D76B2 /* Payments Icon Active~ipad.png */,
+				1369E3041933AB35002D76B2 /* Payments Icon Inactive@2x~ipad.png */,
+				1369E3051933AB35002D76B2 /* Payments Icon Inactive~ipad.png */,
+				1369E3061933AB35002D76B2 /* Power Icon@2x~ipad.png */,
+				1369E3071933AB35002D76B2 /* Power Icon~ipad.png */,
+				1369E3081933AB35002D76B2 /* Service History Icon Active@2x~ipad.png */,
+				1369E3091933AB35002D76B2 /* Service History Icon Active~ipad.png */,
+				1369E30A1933AB35002D76B2 /* Service History Icon Inactive@2x~ipad.png */,
+				1369E30B1933AB35002D76B2 /* Service History Icon Inactive~ipad.png */,
+				135F9A2419484B59001D055F /* Services Header Label@2x~ipad.png */,
+				135F9A2519484B59001D055F /* Services Header Label~ipad.png */,
+				137A1D281946E3DE000CAFC9 /* SMS Preference Icon@2x~ipad.png */,
+				137A1D291946E3DE000CAFC9 /* SMS Preference Icon~ipad.png */,
+				13C0AA71194EE88F0044160C /* Todo List Blue Button Background@2x~ipad.png */,
+				13C0AA72194EE88F0044160C /* Todo List Blue Button Background~ipad.png */,
+				13C0AA73194EE88F0044160C /* Todo List Green Button Background@2x~ipad.png */,
+				13C0AA74194EE88F0044160C /* Todo List Green Button Background~ipad.png */,
+				13C0AA75194EE88F0044160C /* Todo List Orange Button Background@2x~ipad.png */,
+				13C0AA76194EE88F0044160C /* Todo List Orange Button Background~ipad.png */,
+				13C0AA77194EE88F0044160C /* Todo List Red Button Background@2x~ipad.png */,
+				13C0AA78194EE88F0044160C /* Todo List Red Button Background~ipad.png */,
+				13C0AA5C194EB5B30044160C /* Visa Renewal Header Background@2x~ipad.png */,
+				13C0AA5D194EB5B30044160C /* Visa Renewal Header Background~ipad.png */,
+				1369E30C1933AB35002D76B2 /* What Are You Looking For@2x~ipad.png */,
+				1369E30D1933AB35002D76B2 /* What Are You Looking For~ipad.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		13CEA66D1933340E0098E01A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				13E5A21D1935BCA100789991 /* Base View */,
+				13CCD8D919496F83001870E2 /* Company Services View */,
+				13C0AA84194F07020044160C /* Company View */,
+				13CCD8DD19496F83001870E2 /* Employee Services View */,
+				13CCD8E5194986A6001870E2 /* Employees View */,
+				13CEA66E1933439E0098E01A /* HeaderView */,
+				13E5A2171935B70B00789991 /* Homepage View */,
+				13E5A2261935D6E000789991 /* Left Panel */,
+				13E1540F1949CACB00FC8B69 /* Login View */,
+				13D7DC581946F85E000153EF /* Notifications Popover */,
+				13D7DC591946F85E000153EF /* Settings Popover */,
+				13C0AA56194EB5490044160C /* Visa Renewal View */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		13CEA66E1933439E0098E01A /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				13CEA66F193343CA0098E01A /* HeaderUIViewController.h */,
+				13CEA670193343CA0098E01A /* HeaderUIViewController.m */,
+				13CEA671193343CA0098E01A /* HeaderUIViewController.xib */,
+			);
+			path = HeaderView;
+			sourceTree = "<group>";
+		};
+		13CEA6E019336E990098E01A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				13CEA6E119336EB50098E01A /* HelperClass.h */,
+				13CEA6E219336EB50098E01A /* HelperClass.m */,
+				135190E7194D62F9003F86AB /* Employee.h */,
+				135190E8194D62F9003F86AB /* Employee.m */,
+				13C0AA68194EC1820044160C /* NotificationItem.h */,
+				13C0AA69194EC1820044160C /* NotificationItem.m */,
+				13C0AA81194EE8B10044160C /* TodoListItem.h */,
+				13C0AA82194EE8B10044160C /* TodoListItem.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		13D7DC581946F85E000153EF /* Notifications Popover */ = {
+			isa = PBXGroup;
+			children = (
+				13DD2F0D1947249800B2F869 /* NotificationsPopoverViewController.h */,
+				13DD2F0E1947249800B2F869 /* NotificationsPopoverViewController.m */,
+				13DD2F0F1947249800B2F869 /* NotificationsPopoverViewController.xib */,
+			);
+			path = "Notifications Popover";
+			sourceTree = "<group>";
+		};
+		13D7DC591946F85E000153EF /* Settings Popover */ = {
+			isa = PBXGroup;
+			children = (
+				13868B1D1946FCCA00B53C3A /* SettingsPopoverViewController.h */,
+				13868B1E1946FCCA00B53C3A /* SettingsPopoverViewController.m */,
+				13868B1F1946FCCA00B53C3A /* SettingsPopoverViewController.xib */,
+			);
+			path = "Settings Popover";
+			sourceTree = "<group>";
+		};
+		13E1540F1949CACB00FC8B69 /* Login View */ = {
+			isa = PBXGroup;
+			children = (
+				13E154101949CADE00FC8B69 /* LoginViewController.h */,
+				13E154111949CADE00FC8B69 /* LoginViewController.m */,
+			);
+			path = "Login View";
+			sourceTree = "<group>";
+		};
+		13E5A2171935B70B00789991 /* Homepage View */ = {
+			isa = PBXGroup;
+			children = (
+				13C0AA60194EB88D0044160C /* Notification Table View Cell */,
+				13C0AA6B194ED4C30044160C /* Todo List Table View Cell */,
+				13E5A2181935B88600789991 /* HomepageUIViewController.h */,
+				13E5A2191935B88600789991 /* HomepageUIViewController.m */,
+				13E5A21B1935B8AC00789991 /* HomepageUIViewController.xib */,
+			);
+			path = "Homepage View";
+			sourceTree = "<group>";
+		};
+		13E5A21D1935BCA100789991 /* Base View */ = {
+			isa = PBXGroup;
+			children = (
+				13E5A21E1935BCA100789991 /* BaseViewController.h */,
+				13E5A21F1935BCA100789991 /* BaseViewController.m */,
+			);
+			path = "Base View";
+			sourceTree = "<group>";
+		};
+		13E5A2261935D6E000789991 /* Left Panel */ = {
+			isa = PBXGroup;
+			children = (
+				13E5A2291935D72B00789991 /* LeftPanelUIViewController.h */,
+				13E5A22A1935D72B00789991 /* LeftPanelUIViewController.m */,
+				13E5A22B1935D72B00789991 /* LeftPanelUIViewController.xib */,
+			);
+			path = "Left Panel";
+			sourceTree = "<group>";
+		};
+		13F120FF194C9E2C00AF905A /* Empoyees Collection View Cell */ = {
+			isa = PBXGroup;
+			children = (
+				13F12100194C9E8600AF905A /* EmployeesCollectionViewCell.h */,
+				13F12101194C9E8600AF905A /* EmployeesCollectionViewCell.m */,
+				13F12107194CA2CA00AF905A /* EmployeesCollectionViewCell.xib */,
+			);
+			path = "Empoyees Collection View Cell";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13CEA629193333A70098E01A /* DWC eServices */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13CEA65C193333A80098E01A /* Build configuration list for PBXNativeTarget "DWC eServices" */;
+			buildPhases = (
+				13CEA626193333A70098E01A /* Sources */,
+				13CEA627193333A70098E01A /* Frameworks */,
+				13CEA628193333A70098E01A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DWC eServices";
+			productName = "DWC eServices";
+			productReference = 13CEA62A193333A70098E01A /* DWC eServices.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13CEA64A193333A80098E01A /* DWC eServicesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13CEA65F193333A80098E01A /* Build configuration list for PBXNativeTarget "DWC eServicesTests" */;
+			buildPhases = (
+				13CEA647193333A80098E01A /* Sources */,
+				13CEA648193333A80098E01A /* Frameworks */,
+				13CEA649193333A80098E01A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13CEA651193333A80098E01A /* PBXTargetDependency */,
+			);
+			name = "DWC eServicesTests";
+			productName = "DWC eServicesTests";
+			productReference = 13CEA64B193333A80098E01A /* DWC eServicesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13CEA622193333A70098E01A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Zapp Island";
+				TargetAttributes = {
+					13CEA629193333A70098E01A = {
+						DevelopmentTeam = 9M23A99R9P;
+					};
+					13CEA64A193333A80098E01A = {
+						TestTargetID = 13CEA629193333A70098E01A;
+					};
+				};
+			};
+			buildConfigurationList = 13CEA625193333A70098E01A /* Build configuration list for PBXProject "DWC eServices" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13CEA621193333A70098E01A;
+			productRefGroup = 13CEA62B193333A70098E01A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13CEA629193333A70098E01A /* DWC eServices */,
+				13CEA64A193333A80098E01A /* DWC eServicesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13CEA628193333A70098E01A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1369E3231933AB35002D76B2 /* Leases Icon Active~ipad.png in Resources */,
+				1357D36D1949D62100A473F4 /* Employees Cards Horizontal Separator~ipad.png in Resources */,
+				13EA1B5F194D8EB7004162E0 /* Employees Sort Button Background~ipad.png in Resources */,
+				1369E32A1933AB35002D76B2 /* Payments Icon Active@2x~ipad.png in Resources */,
+				13F12108194CA2CA00AF905A /* EmployeesCollectionViewCell.xib in Resources */,
+				13C0AA70194EE1760044160C /* TodoListTableViewCell.xib in Resources */,
+				13C0AA67194EBC870044160C /* NotificationTableViewCell.xib in Resources */,
+				1369E3161933AB35002D76B2 /* Employees Icon Active@2x~ipad.png in Resources */,
+				13E5A2311935DE0600789991 /* Left Panel Background~ipad.png in Resources */,
+				1369E3311933AB35002D76B2 /* Service History Icon Active~ipad.png in Resources */,
+				13DD2F111947249800B2F869 /* NotificationsPopoverViewController.xib in Resources */,
+				1369E31D1933AB35002D76B2 /* HeaderBackground~ipad.png in Resources */,
+				135190F0194D6F62003F86AB /* Charles Winston.png in Resources */,
+				1369E32B1933AB35002D76B2 /* Payments Icon Active~ipad.png in Resources */,
+				137A1D2A1946E3DE000CAFC9 /* SMS Preference Icon@2x~ipad.png in Resources */,
+				13CEA66C193334090098E01A /* icon@2x.png in Resources */,
+				1369E3211933AB35002D76B2 /* Home Icon Inactive~ipad.png in Resources */,
+				13EA1B5A194D8962004162E0 /* Employees Card Button Background@2x~ipad.png in Resources */,
+				13C0AA5F194EB5B30044160C /* Visa Renewal Header Background~ipad.png in Resources */,
+				13C0AA7D194EE88F0044160C /* Todo List Orange Button Background@2x~ipad.png in Resources */,
+				137A1D2E1946E6DE000CAFC9 /* Horizontal Separator@2x~ipad.png in Resources */,
+				13EA1B5E194D8EB7004162E0 /* Employees Sort Button Background@2x~ipad.png in Resources */,
+				13DE22EF1956AC8200C27826 /* Company Tab Button Inactive Background@2x~ipad.png in Resources */,
+				1369E3251933AB35002D76B2 /* Leases Icon Inactive~ipad.png in Resources */,
+				13C0AA79194EE88F0044160C /* Todo List Blue Button Background@2x~ipad.png in Resources */,
+				13C0AA7B194EE88F0044160C /* Todo List Green Button Background@2x~ipad.png in Resources */,
+				1369E3351933AB35002D76B2 /* What Are You Looking For~ipad.png in Resources */,
+				135F9A2719484B59001D055F /* Services Header Label~ipad.png in Resources */,
+				1369E30F1933AB35002D76B2 /* Circle Mask~ipad.png in Resources */,
+				137A1D1B1946DDE6000CAFC9 /* Dark Settings Button~ipad.png in Resources */,
+				1367F31F193497CD00D4BEAB /* Employee Services Homepage Icon@2x~ipad.png in Resources */,
+				1369E31B1933AB35002D76B2 /* Gear Icon~ipad.png in Resources */,
+				1369E3271933AB35002D76B2 /* Notification Badge Icon~ipad.png in Resources */,
+				13CEA673193343CA0098E01A /* HeaderUIViewController.xib in Resources */,
+				1367F320193497CD00D4BEAB /* Employee Services Homepage Icon~ipad.png in Resources */,
+				1369E3341933AB35002D76B2 /* What Are You Looking For@2x~ipad.png in Resources */,
+				13DE22F01956AC8200C27826 /* Company Tab Button Inactive Background~ipad.png in Resources */,
+				1369E3191933AB35002D76B2 /* Employees Icon Inactive~ipad.png in Resources */,
+				13C0AA5E194EB5B30044160C /* Visa Renewal Header Background@2x~ipad.png in Resources */,
+				13CEA646193333A80098E01A /* Images.xcassets in Resources */,
+				1369E3131933AB35002D76B2 /* Company Icon Inactive~ipad.png in Resources */,
+				13E5A21C1935B8AC00789991 /* HomepageUIViewController.xib in Resources */,
+				1367F328193497E100D4BEAB /* Logistics Services Homepage Icon~ipad.png in Resources */,
+				137A1D2F1946E6DE000CAFC9 /* Horizontal Separator~ipad.png in Resources */,
+				135190F1194D6F62003F86AB /* Marissa Mayer.png in Resources */,
+				1369E3101933AB35002D76B2 /* Company Icon Active@2x~ipad.png in Resources */,
+				13C0AA5B194EB5490044160C /* VisaRenewalViewController.xib in Resources */,
+				1367F30C193462E300D4BEAB /* Default Profile Image.png in Resources */,
+				1367F31819348E8600D4BEAB /* Home Services Buttons Background~ipad.png in Resources */,
+				1367F31B193497C200D4BEAB /* Company Services Homepage Icon@2x~ipad.png in Resources */,
+				13F21DCD1952EE8B0025A96B /* Aramex Company Image@2x~ipad.png in Resources */,
+				1369E3141933AB35002D76B2 /* DWC Header Logo@2x~ipad.png in Resources */,
+				1369E3221933AB35002D76B2 /* Leases Icon Active@2x~ipad.png in Resources */,
+				1369E3321933AB35002D76B2 /* Service History Icon Inactive@2x~ipad.png in Resources */,
+				1369E32F1933AB35002D76B2 /* Power Icon~ipad.png in Resources */,
+				1369E3281933AB35002D76B2 /* Notification Icon@2x~ipad.png in Resources */,
+				137A1D1A1946DDE6000CAFC9 /* Dark Settings Button@2x~ipad.png in Resources */,
+				13E1540D1949C96B00FC8B69 /* Blue Button Background@2x~ipad.png in Resources */,
+				13E5A22D1935D72B00789991 /* LeftPanelUIViewController.xib in Resources */,
+				1369E3331933AB35002D76B2 /* Service History Icon Inactive~ipad.png in Resources */,
+				13868B211946FCCA00B53C3A /* SettingsPopoverViewController.xib in Resources */,
+				1369E30E1933AB35002D76B2 /* Circle Mask@2x~ipad.png in Resources */,
+				1369E32C1933AB35002D76B2 /* Payments Icon Inactive@2x~ipad.png in Resources */,
+				1367F31319347C3900D4BEAB /* List Header Background@2x~ipad.png in Resources */,
+				1367F31C193497C200D4BEAB /* Company Services Homepage Icon~ipad.png in Resources */,
+				13C0AA7F194EE88F0044160C /* Todo List Red Button Background@2x~ipad.png in Resources */,
+				13F21DD21952F11B0025A96B /* Company Background~ipad.png in Resources */,
+				13CEA669193334090098E01A /* icon-72.png in Resources */,
+				1369E3121933AB35002D76B2 /* Company Icon Inactive@2x~ipad.png in Resources */,
+				13CCD8EA194986B9001870E2 /* EmployeesViewController.xib in Resources */,
+				1367F31719348E8600D4BEAB /* Home Services Buttons Background@2x~ipad.png in Resources */,
+				1367F324193497DB00D4BEAB /* Leases Services Homepage Icon~ipad.png in Resources */,
+				13CEA66B193334090098E01A /* icon.png in Resources */,
+				13C0AA7A194EE88F0044160C /* Todo List Blue Button Background~ipad.png in Resources */,
+				13C0AA80194EE88F0044160C /* Todo List Red Button Background~ipad.png in Resources */,
+				13DC715B194DB4360003B0E0 /* Dropdown Button Icon~ipad.png in Resources */,
+				13DC715A194DB4360003B0E0 /* Dropdown Button Icon@2x~ipad.png in Resources */,
+				13F21DD11952F11B0025A96B /* Company Background@2x~ipad.png in Resources */,
+				1369E3291933AB35002D76B2 /* Notification Icon~ipad.png in Resources */,
+				13E5A2301935DE0600789991 /* Left Panel Background@2x~ipad.png in Resources */,
+				13C0AA89194F07200044160C /* CompanyViewController.xib in Resources */,
+				1369E3181933AB35002D76B2 /* Employees Icon Inactive@2x~ipad.png in Resources */,
+				137A1D261946E3D1000CAFC9 /* Manage Users Icon@2x~ipad.png in Resources */,
+				1367F31419347C3900D4BEAB /* List Header Background~ipad.png in Resources */,
+				135190F2194D6F62003F86AB /* Nihonjin No Shimei.png in Resources */,
+				13C0AA7C194EE88F0044160C /* Todo List Green Button Background~ipad.png in Resources */,
+				13E1540E1949C96B00FC8B69 /* Blue Button Background~ipad.png in Resources */,
+				1369E3261933AB35002D76B2 /* Notification Badge Icon@2x~ipad.png in Resources */,
+				13CEA66A193334090098E01A /* icon-72@2x.png in Resources */,
+				13E5A2251935CAF000789991 /* Main.storyboard in Resources */,
+				13CEA638193333A80098E01A /* InfoPlist.strings in Resources */,
+				13DE22EE1956AC8200C27826 /* Company Tab Button Active Background~ipad.png in Resources */,
+				137A1D1E1946E3B1000CAFC9 /* App Settings Icon@2x~ipad.png in Resources */,
+				13CCD8E419496FB4001870E2 /* EmployeeServicesViewController.xib in Resources */,
+				1357D36C1949D62100A473F4 /* Employees Cards Horizontal Separator@2x~ipad.png in Resources */,
+				137A1D1F1946E3B1000CAFC9 /* App Settings Icon~ipad.png in Resources */,
+				1369E31C1933AB35002D76B2 /* HeaderBackground@2x~ipad.png in Resources */,
+				1369E31A1933AB35002D76B2 /* Gear Icon@2x~ipad.png in Resources */,
+				1367F3101934680E00D4BEAB /* Home Background~ipad.png in Resources */,
+				137A1D271946E3D1000CAFC9 /* Manage Users Icon~ipad.png in Resources */,
+				1367F327193497E100D4BEAB /* Logistics Services Homepage Icon@2x~ipad.png in Resources */,
+				13EA1B57194D7DD4004162E0 /* Abigail Johnson.png in Resources */,
+				137A1D2B1946E3DE000CAFC9 /* SMS Preference Icon~ipad.png in Resources */,
+				1369E32E1933AB35002D76B2 /* Power Icon@2x~ipad.png in Resources */,
+				13EA1B5B194D8962004162E0 /* Employees Card Button Background~ipad.png in Resources */,
+				1369E3111933AB35002D76B2 /* Company Icon Active~ipad.png in Resources */,
+				1369E31F1933AB35002D76B2 /* Home Icon Active~ipad.png in Resources */,
+				1369E3151933AB35002D76B2 /* DWC Header Logo~ipad.png in Resources */,
+				1369E32D1933AB35002D76B2 /* Payments Icon Inactive~ipad.png in Resources */,
+				13C0AA7E194EE88F0044160C /* Todo List Orange Button Background~ipad.png in Resources */,
+				1369E31E1933AB35002D76B2 /* Home Icon Active@2x~ipad.png in Resources */,
+				1367F30F1934680E00D4BEAB /* Home Background@2x~ipad.png in Resources */,
+				13F21DCE1952EE8B0025A96B /* Aramex Company Image~ipad.png in Resources */,
+				1369E3241933AB35002D76B2 /* Leases Icon Inactive@2x~ipad.png in Resources */,
+				135F9A2619484B59001D055F /* Services Header Label@2x~ipad.png in Resources */,
+				137A1D231946E3BE000CAFC9 /* Email Preference Icon~ipad.png in Resources */,
+				13F21DC91952EDF00025A96B /* Company Action Button Background@2x~ipad.png in Resources */,
+				13F21DCA1952EDF00025A96B /* Company Action Button Background~ipad.png in Resources */,
+				1369E3171933AB35002D76B2 /* Employees Icon Active~ipad.png in Resources */,
+				1369E3201933AB35002D76B2 /* Home Icon Inactive@2x~ipad.png in Resources */,
+				13CCD8DF19496F83001870E2 /* CompanyServicesViewController.xib in Resources */,
+				1367F323193497DB00D4BEAB /* Leases Services Homepage Icon@2x~ipad.png in Resources */,
+				137A1D221946E3BE000CAFC9 /* Email Preference Icon@2x~ipad.png in Resources */,
+				13DE22ED1956AC8200C27826 /* Company Tab Button Active Background@2x~ipad.png in Resources */,
+				1369E3301933AB35002D76B2 /* Service History Icon Active@2x~ipad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13CEA649193333A80098E01A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CEA657193333A80098E01A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13CEA626193333A70098E01A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				135190E9194D62F9003F86AB /* Employee.m in Sources */,
+				13F12103194C9E8600AF905A /* EmployeesCollectionViewCell.m in Sources */,
+				13C0AA66194EBC870044160C /* NotificationTableViewCell.m in Sources */,
+				13E5A21A1935B88600789991 /* HomepageUIViewController.m in Sources */,
+				13E5A2201935BCA100789991 /* BaseViewController.m in Sources */,
+				13C0AA6A194EC1820044160C /* NotificationItem.m in Sources */,
+				13E154121949CADE00FC8B69 /* LoginViewController.m in Sources */,
+				13CEA6E319336EB50098E01A /* HelperClass.m in Sources */,
+				13E5A22C1935D72B00789991 /* LeftPanelUIViewController.m in Sources */,
+				13C0AA88194F07200044160C /* CompanyViewController.m in Sources */,
+				13CEA672193343CA0098E01A /* HeaderUIViewController.m in Sources */,
+				13C0AA83194EE8B10044160C /* TodoListItem.m in Sources */,
+				13868B201946FCCA00B53C3A /* SettingsPopoverViewController.m in Sources */,
+				13CCD8E9194986B9001870E2 /* EmployeesViewController.m in Sources */,
+				13C0AA6F194EE1760044160C /* TodoListTableViewCell.m in Sources */,
+				13C0AA5A194EB5490044160C /* VisaRenewalViewController.m in Sources */,
+				13CEA63E193333A80098E01A /* AppDelegate.m in Sources */,
+				13CEA63A193333A80098E01A /* main.m in Sources */,
+				13CCD8E319496FB4001870E2 /* EmployeeServicesViewController.m in Sources */,
+				13CCD8DE19496F83001870E2 /* CompanyServicesViewController.m in Sources */,
+				13DD2F101947249800B2F869 /* NotificationsPopoverViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13CEA647193333A80098E01A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CEA659193333A80098E01A /* DWC_eServicesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13CEA651193333A80098E01A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13CEA629193333A70098E01A /* DWC eServices */;
+			targetProxy = 13CEA650193333A80098E01A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13CEA636193333A80098E01A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13CEA637193333A80098E01A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		13CEA655193333A80098E01A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13CEA656193333A80098E01A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		13E5A2231935CAF000789991 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13E5A2241935CAF000789991 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13CEA65A193333A80098E01A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		13CEA65B193333A80098E01A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13CEA65D193333A80098E01A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Mina Zaklama (9M23A99R9P)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DWC eServices/DWC eServices-Prefix.pch";
+				INFOPLIST_FILE = "DWC eServices/DWC eServices-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		13CEA65E193333A80098E01A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Mina Zaklama (9M23A99R9P)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DWC eServices/DWC eServices-Prefix.pch";
+				INFOPLIST_FILE = "DWC eServices/DWC eServices-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		13CEA660193333A80098E01A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DWC eServices.app/DWC eServices";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DWC eServices/DWC eServices-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DWC eServicesTests/DWC eServicesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		13CEA661193333A80098E01A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DWC eServices.app/DWC eServices";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DWC eServices/DWC eServices-Prefix.pch";
+				INFOPLIST_FILE = "DWC eServicesTests/DWC eServicesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13CEA625193333A70098E01A /* Build configuration list for PBXProject "DWC eServices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13CEA65A193333A80098E01A /* Debug */,
+				13CEA65B193333A80098E01A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13CEA65C193333A80098E01A /* Build configuration list for PBXNativeTarget "DWC eServices" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13CEA65D193333A80098E01A /* Debug */,
+				13CEA65E193333A80098E01A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13CEA65F193333A80098E01A /* Build configuration list for PBXNativeTarget "DWC eServicesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13CEA660193333A80098E01A /* Debug */,
+				13CEA661193333A80098E01A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13CEA622193333A70098E01A /* Project object */;
+}
