@@ -328,11 +328,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DWCTest/Classes/UI/NewCardViewController/NewCardViewController.m"
-            timestampString = "442226962.79024"
+            timestampString = "442838580.834544"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "168"
-            endingLineNumber = "168"
+            startingLineNumber = "172"
+            endingLineNumber = "172"
             landmarkName = "-getServiceAdministrator"
             landmarkType = "5">
             <Locations>
@@ -374,11 +374,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DWCTest/Classes/UI/NewCardViewController/NewCardViewController.m"
-            timestampString = "442226962.79024"
+            timestampString = "442838580.834544"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "169"
-            endingLineNumber = "169"
+            startingLineNumber = "173"
+            endingLineNumber = "173"
             landmarkName = "-getServiceAdministrator"
             landmarkType = "5">
          </BreakpointContent>
@@ -422,11 +422,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DWCTest/Classes/UI/RootViewController/RootViewController.m"
-            timestampString = "442756440.907208"
+            timestampString = "442839592.252755"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "56"
-            endingLineNumber = "56"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
             landmarkName = "-viewDidLoad"
             landmarkType = "5">
          </BreakpointContent>
@@ -438,27 +438,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DWCTest/Classes/UI/NewCardViewController/NewCardViewController.m"
-            timestampString = "442757005.475557"
+            timestampString = "442838580.834544"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "221"
-            endingLineNumber = "221"
-            landmarkName = "-getServiceAdministrator"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "DWCTest/Classes/UI/NewCardViewController/NewCardViewController.m"
-            timestampString = "442757008.175711"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "177"
-            endingLineNumber = "177"
+            startingLineNumber = "225"
+            endingLineNumber = "225"
             landmarkName = "-getServiceAdministrator"
             landmarkType = "5">
          </BreakpointContent>
@@ -470,12 +454,44 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DWCTest/Classes/UI/NewCardViewController/NewCardViewController.m"
-            timestampString = "442757064.261548"
+            timestampString = "442838580.834544"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "201"
-            endingLineNumber = "201"
+            startingLineNumber = "181"
+            endingLineNumber = "181"
             landmarkName = "-getServiceAdministrator"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DWCTest/Classes/UI/NewCardViewController/NewCardViewController.m"
+            timestampString = "442838580.834544"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "205"
+            endingLineNumber = "205"
+            landmarkName = "-getServiceAdministrator"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DWCTest/Classes/UI/NewCardViewController/NewCardViewController.m"
+            timestampString = "442838598.165824"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "-viewDidLoad"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
