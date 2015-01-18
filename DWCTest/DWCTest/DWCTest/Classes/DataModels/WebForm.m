@@ -29,4 +29,18 @@
     return self;
 }
 
+- (WebForm*)copyDeep {
+    WebForm *webForm = [[WebForm alloc] initWebForm:self.Id
+                                               Name:self.name
+                                        Description:self.description
+                                              Title:self.title
+                                 IsNotesAttachments:self.isNotesAttachments
+                                        ObjectLabel:self.objectLabel
+                                         ObjectName:self.objectName];
+    
+    webForm.formFields = [[NSArray alloc] initWithArray:self.formFields copyItems:YES];
+    
+    return webForm;
+}
+
 @end

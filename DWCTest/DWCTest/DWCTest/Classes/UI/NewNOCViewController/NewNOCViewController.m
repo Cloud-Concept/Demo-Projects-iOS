@@ -34,6 +34,11 @@
     
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    if (currentWebForm != nil)
+        [HelperClass drawFormFields:currentWebForm DynamicView:self.dynamicView];
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -97,13 +102,12 @@
     }
     
     void (^successBlock)(NSDictionary *dict) = ^(NSDictionary *dict) {
-        insertedNOCId = [dict objectForKey:@"id"];
+        if (dict != nil)
+            insertedNOCId = [dict objectForKey:@"id"];
+        
         [HelperClass createCompanyDocuments:insertedNOCId ParentField:@"NOC__c" Document:selectedServiceAdmin.serviceDocumentsArray CompanyID:self.accountId];
         
         [self updateCaseObject:caseId NOC:insertedNOCId Invoice:@""];
-        
-        //[self getCustomerTransaction:caseId NOC:insertedNOCId];
-        
     };
     
     void (^errorBlock) (NSError*) = ^(NSError *e) {
@@ -115,10 +119,17 @@
         
     };
     
-    [[SFRestAPI sharedInstance] performCreateWithObjectType:@"NOC__c"
-                                                     fields:fields
-                                                  failBlock:errorBlock
-                                              completeBlock:successBlock];
+    if (insertedNOCId != nil && ![insertedNOCId isEqualToString:@""])
+        [[SFRestAPI sharedInstance] performUpdateWithObjectType:@"NOC__c"
+                                                       objectId:insertedNOCId
+                                                         fields:fields
+                                                      failBlock:errorBlock
+                                                  completeBlock:successBlock];
+    else
+        [[SFRestAPI sharedInstance] performCreateWithObjectType:@"NOC__c"
+                                                         fields:fields
+                                                      failBlock:errorBlock
+                                                  completeBlock:successBlock];
 }
 
 - (void)createCaseRecord {
@@ -137,7 +148,9 @@
                             nil];
     
     void (^successBlock)(NSDictionary *dict) = ^(NSDictionary *dict) {
-        insertedCaseId = [dict objectForKey:@"id"];
+        if (dict != nil)
+            insertedCaseId = [dict objectForKey:@"id"];
+            
         dispatch_async(dispatch_get_main_queue(), ^{
             [self createNOCRecord:insertedCaseId];
         });
@@ -152,10 +165,17 @@
         
     };
     
-    [[SFRestAPI sharedInstance] performCreateWithObjectType:@"Case"
-                                                     fields:fields
-                                                  failBlock:errorBlock
-                                              completeBlock:successBlock];
+    if(insertedCaseId != nil && ![insertedCaseId  isEqual: @""])
+        [[SFRestAPI sharedInstance] performUpdateWithObjectType:@"Case"
+                                                       objectId:insertedCaseId
+                                                         fields:fields
+                                                      failBlock:errorBlock
+                                                  completeBlock:successBlock];
+    else
+        [[SFRestAPI sharedInstance] performCreateWithObjectType:@"Case"
+                                                         fields:fields
+                                                      failBlock:errorBlock
+                                                  completeBlock:successBlock];
 }
 
 - (void)getCustomerTransaction:(NSString*)caseId NOC:(NSString*)nocID {
@@ -193,9 +213,7 @@
 - (void)updateCaseObject:(NSString*)caseId NOC:(NSString*)nocId Invoice:(NSString*)invoiceId {
     
     NSDictionary *fields = [NSDictionary dictionaryWithObjectsAndKeys:
-                            /*invoiceId, @"Invoice__c",*/
                             nocId, @"Noc__c",
-                            /*@"Application Submitted", @"Status",*/
                             nil];
     
     void (^successBlock)(NSDictionary *dict) = ^(NSDictionary *dict) {
@@ -203,7 +221,7 @@
             NOCReviewViewController *nocReviewVC = [NOCReviewViewController new];
             
             nocReviewVC.caseId = insertedCaseId;
-            nocReviewVC.currentWebForm = currentWebForm;
+            nocReviewVC.currentWebForm = [currentWebForm copyDeep];
             
             [self.navigationController pushViewController:nocReviewVC animated:YES];
         });

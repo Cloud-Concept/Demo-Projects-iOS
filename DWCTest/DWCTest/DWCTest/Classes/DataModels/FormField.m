@@ -55,6 +55,44 @@
     return self;
 }
 
+
+- (id)copyWithZone:(NSZone *)zone
+{
+    FormField *copy = [[[self class] allocWithZone:zone] init];
+    copy.Id = _Id;
+    copy.name = _name;
+    copy.apiRequired = _apiRequired;
+    copy.booleanValue = _booleanValue;
+    copy.currencyValue = _currencyValue;
+    copy.dateTimeValue = _dateTimeValue;
+    copy.dateValue = _dateValue;
+    copy.emailValue = _emailValue;
+    copy.hidden = _hidden;
+    copy.isCalculated = _isCalculated;
+    copy.isParameter = _isParameter;
+    copy.isQuery = _isQuery;
+    copy.label = _label;
+    copy.numberValue = _numberValue;
+    copy.order = _order;
+    copy.percentValue = _percentValue;
+    copy.phoneValue = _phoneValue;
+    copy.picklistValue = _picklistValue;
+    copy.picklistEntries = _picklistEntries;
+    copy.required = _required;
+    copy.textAreaLongValue = _textAreaLongValue;
+    copy.textAreaValue = _textAreaValue;
+    copy.textValue = _textValue;
+    copy.type = _type;
+    copy.urlValue = _urlValue;
+    copy.webForm = _webForm;
+    copy.width = _width;
+    copy.isMobileAvailable = _isMobileAvailable;
+    copy.mobileLabel = _mobileLabel;
+    copy.mobileOrder = _mobileOrder;
+    
+    return copy;
+}
+
 - (UILabel*)getLabelView {
     if (labelView == nil) {
         labelView = [UILabel new];

@@ -10,7 +10,7 @@
 #import "SFPickListViewController.h"
 #import "DatePickerViewController.h"
 
-@interface FormField : NSObject <SFPickListViewDelegate, DatePickerViewControllerDelegate, UIPopoverControllerDelegate>
+@interface FormField : NSObject <SFPickListViewDelegate, DatePickerViewControllerDelegate, UIPopoverControllerDelegate, NSCopying>
 {
     NSString *formFieldValue;
     UIView *fieldView;

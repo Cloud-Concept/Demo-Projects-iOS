@@ -52,6 +52,11 @@
     }
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    if (currentWebForm != nil)
+        [HelperClass drawFormFields:currentWebForm DynamicView:self.dynamicView];
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -389,7 +394,8 @@
                             nil];
     
     void (^successBlock)(NSDictionary *dict) = ^(NSDictionary *dict) {
-        insertedCaseId = [dict objectForKey:@"id"];
+        if (dict != nil)
+            insertedCaseId = [dict objectForKey:@"id"];
         dispatch_async(dispatch_get_main_queue(), ^{
             [self createCardManagementRecord:insertedCaseId];
         });
@@ -404,10 +410,17 @@
         
     };
     
-    [[SFRestAPI sharedInstance] performCreateWithObjectType:@"Case"
-                                                     fields:fields
-                                                  failBlock:errorBlock
-                                              completeBlock:successBlock];
+    if (insertedCaseId != nil && ![insertedCaseId isEqualToString:@""])
+        [[SFRestAPI sharedInstance] performUpdateWithObjectType:@"Case"
+                                                       objectId:insertedCaseId
+                                                         fields:fields
+                                                      failBlock:errorBlock
+                                                  completeBlock:successBlock];
+    else
+        [[SFRestAPI sharedInstance] performCreateWithObjectType:@"Case"
+                                                         fields:fields
+                                                      failBlock:errorBlock
+                                                  completeBlock:successBlock];
 }
 
 - (void)createCardManagementRecord:(NSString*)caseId {
@@ -427,7 +440,8 @@
     }
     
     void (^successBlock)(NSDictionary *dict) = ^(NSDictionary *dict) {
-        insertedCardId = [dict objectForKey:@"id"];
+        if (dict != nil)
+            insertedCardId = [dict objectForKey:@"id"];
         [HelperClass createCompanyDocuments:insertedCardId ParentField:@"Card_Management__c" Document:documentsArray CompanyID:self.accountId];
         [self updateCaseObject:insertedCaseId Card:insertedCardId];
     };
@@ -441,10 +455,17 @@
         
     };
     
-    [[SFRestAPI sharedInstance] performCreateWithObjectType:@"Card_Management__c"
-                                                     fields:fields
-                                                  failBlock:errorBlock
-                                              completeBlock:successBlock];
+    if (insertedCardId != nil && ![insertedCardId isEqualToString:@""])
+        [[SFRestAPI sharedInstance] performUpdateWithObjectType:@"Card_Management__c"
+                                                       objectId:insertedCardId
+                                                         fields:fields
+                                                      failBlock:errorBlock
+                                                  completeBlock:successBlock];
+    else
+        [[SFRestAPI sharedInstance] performCreateWithObjectType:@"Card_Management__c"
+                                                         fields:fields
+                                                      failBlock:errorBlock
+                                                  completeBlock:successBlock];
 }
 
 - (void)updateCaseObject:(NSString*)caseId Card:(NSString*)cardId{
@@ -457,7 +478,7 @@
         dispatch_async(dispatch_get_main_queue(), ^{
             NewCardReviewViewController *newCardReviewVC = [NewCardReviewViewController new];
             newCardReviewVC.caseId = caseId;
-            newCardReviewVC.currentWebForm = currentWebForm;
+            newCardReviewVC.currentWebForm = [currentWebForm copyDeep];
             
             [self.navigationController pushViewController:newCardReviewVC animated:YES];
         });
